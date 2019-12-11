@@ -35,25 +35,25 @@ ChannelData = {
         data: "",
         enabled: false
     },
-    udp: {
-        host: "",
-        port: 8888,
-        data: "",
+    udp: {                      // UDP 
+        host: "",               // 目標 host
+        port: 8888,             // 目標 port
+        data: "",               // 空白隔開的十六進位字串, 例如 "0A 3B 45". 辨識成功時發出.
         enabled: false
     },
-    gaziru: {
-        host: "",
-        port: 8888,
+    gaziru: {                   // Gaziru (在 gaziru 所在的機器上, 需要裝 gaziru-parser 來負責溝通)
+        host: "",               // host
+        port: 8787,             // gaziru-parser 開的 port, 目前固定是 8787.
         enabled: false
     },
-    baofeng: {
-        host: "",
-        port: 8888,
-        token: "",
+    baofeng: {                  // BaoFeng (丟臉給金融區)
+        host: "",               // 目標 host
+        port: 8888,             // 目標 port
+        token: "",              // 驗證用的 token
         enabled: false
     },
-    frsDBConn: {
-        user: "",
+    frsDBConn: {                // FRS DB (同步 member)
+        user: "",               
         password: "",
         server: "",
         database: "",
