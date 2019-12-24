@@ -80,7 +80,7 @@ SrAPI.channel(channelID).getBaoFeng();
 
 ---
 
-### getFA
+## getFA
 
 取得特定頻道的 FA 資料
 
@@ -104,7 +104,7 @@ SrAPI.channel(channelID).getFA();
 
 ---
 
-### getFR
+## getFR
 
 取得特定頻道的對人臉辨識的 socket server 的連線資料
 
@@ -131,7 +131,7 @@ SrAPI.channel(channelID).getFR();
 
 ---
 
-### getFRSDBConn
+## getFRSDBConn
 
 取得特定頻道的對應 socket server 資料庫的資料
 
@@ -159,7 +159,7 @@ SrAPI.channel(channelID).getFRSDBConn();
 
 ---
 
-### getGaziru
+## getGaziru
 
 取得特定頻道的對應 gaziru 的連線資料
 
@@ -185,7 +185,7 @@ SrAPI.channel(channelID).getGaziru();
 
 ---
 
-### getInfo
+## getInfo
 
 取得特定頻道的基本資料
 
@@ -211,7 +211,7 @@ SrAPI.channel(channelID).getInfo();
 
 ---
 
-### getTCP
+## getTCP
 
 取得特定頻道觸發 TCP 指令的資料 (未實裝)
 
@@ -236,7 +236,7 @@ SrAPI.channel(channelID).getTCP();
 
 ---
 
-### getUDP
+## getUDP
 
 取得特定頻道觸發 UDP 指令的資料
 
@@ -261,7 +261,7 @@ SrAPI.channel(channelID).getUDP();
 
 ---
 
-### getWSFeed
+## getWSFeed
 
 取得特定頻道影像來源的連線資料
 
@@ -287,38 +287,38 @@ SrAPI.channel(channelID).getWSFeed();
 
 ---
 
-### setBaoFeng
+## setBaoFeng
 
 ---
 
-### setFA
+## setFA
 
 ---
 
-### setFR
+## setFR
 
 ---
 
-### setFRSDBConn
+## setFRSDBConn
 
 ---
 
-### setGaziru
+## setGaziru
 
 ---
 
-### setInfo
+## setInfo
 
 ---
 
-### setTCP
+## setTCP
 
 ---
 
-### setUDP
+## setUDP
 
 ---
 
-### setWSFeed
+## setWSFeed
 
 ---
