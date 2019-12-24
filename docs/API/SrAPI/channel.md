@@ -82,6 +82,10 @@ ChannelData = {
 SrAPI.channel(channelID).edit(channelData);
 ```
 
+回應
+
+修改後的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
+
 ---
 
 ### list
@@ -93,6 +97,10 @@ SrAPI.channel(channelID).edit(channelData);
 ```
 SrAPI.channel().list();
 ```
+
+回應
+
+Array of [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
 
 ---
 
@@ -107,6 +115,10 @@ SrAPI.channel().list();
 ```
 SrAPI.channel(channelID).getAll();
 ```
+
+回應
+
+此頻道的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
 
 ---
 
