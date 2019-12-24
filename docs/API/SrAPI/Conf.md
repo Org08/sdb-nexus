@@ -22,3 +22,15 @@ SrAPI.channel().addProbe({
 - `level: String` all, debug, info, warn, error, fatal
 
 ---
+
+## clearProbe
+
+清除要接收的系統資訊.
+
+#### 範例
+
+```
+SrAPI.channel().clearProbe()
+```
+
+---
