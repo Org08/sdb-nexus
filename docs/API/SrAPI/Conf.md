@@ -34,3 +34,29 @@ SrAPI.channel().clearProbe()
 ```
 
 ---
+
+## getStore
+
+取得設定檔 `./conf.json` 中的 store 資料.
+
+目前僅用於設定 POS 介面的預設咖啡按鈕.
+
+#### 範例
+
+```
+SrAPI.channel().getStore()
+```
+
+#### 回應
+
+```
+{
+    coffee: {
+        code: "coffee_0",
+        name: "咖啡",
+        price: 50
+    }
+}
+```
+
+---
