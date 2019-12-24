@@ -76,7 +76,7 @@ ChannelData = {
 
 - `channelData:` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
 
-範例:
+範例
 
 ```
 SrAPI.channel(channelID).edit(channelData);
@@ -88,7 +88,7 @@ SrAPI.channel(channelID).edit(channelData);
 
 列出所有頻道及其所有資料
 
-範例:
+範例
 
 ```
 SrAPI.channel().list();
@@ -102,7 +102,7 @@ SrAPI.channel().list();
 
 - `channelID: Number`
 
-範例:
+範例
 
 ```
 SrAPI.channel(channelID).getAll();
@@ -111,6 +111,17 @@ SrAPI.channel(channelID).getAll();
 ---
 
 ### getBaoFeng
+
+取得特定頻道的金融區整合資料
+
+(這通常只有一個頻道被設定)
+
+- `channelID: Number`
+
+範例
+
+```
+SrAPI.channel(channelID).getBaoFeng();
 
 ---
 
