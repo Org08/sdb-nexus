@@ -4,7 +4,7 @@
 
 ## edit
 
-修改 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro) 的任意資料
+修改 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md) 的任意資料
 
 ### 範例
 
@@ -14,11 +14,11 @@ SrAPI.channel(channelID).edit(channelData);
 
 - `channelID: Number`
 
-- `channelData:` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
+- `channelData:` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
 ### 回應
 
-修改後的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
+修改後的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
 ---
 
@@ -34,7 +34,7 @@ SrAPI.channel().list();
 
 #### 回應
 
-Array of [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
+Array of [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
 ---
 
@@ -51,7 +51,7 @@ SrAPI.channel(channelID).getAll();
 
 ### 回應
 
-此頻道的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
+此頻道的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
 ---
 
