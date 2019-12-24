@@ -70,8 +70,17 @@ SrAPI.channel().getStore()
 #### 範例
 
 ```
-SrAPI.channel().setLog({
-
+SrAPI.channel().setLog({    // 設定值都不是必填
+    sys: {
+        level: "debug"
+    },
+    channel: {
+        enabled: false
+    },
+    member: {
+        level: "info",
+        enabled: true
+    }
 })
 ```
 
