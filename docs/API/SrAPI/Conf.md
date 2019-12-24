@@ -11,7 +11,7 @@
 #### 範例
 
 ```
-SrAPI.channel().addProbe({
+SrAPI.conf().addProbe({
     flag: "sys",
     level: "info"
 })
@@ -30,7 +30,7 @@ SrAPI.channel().addProbe({
 #### 範例
 
 ```
-SrAPI.channel().clearProbe()
+SrAPI.conf().clearProbe()
 ```
 
 ---
@@ -44,7 +44,7 @@ SrAPI.channel().clearProbe()
 #### 範例
 
 ```
-SrAPI.channel().getStore()
+SrAPI.conf().getStore()
 ```
 
 #### 回應
@@ -70,7 +70,7 @@ SrAPI.channel().getStore()
 #### 範例
 
 ```
-SrAPI.channel().setLog({    // 設定值都不是必填
+SrAPI.conf().setLog({    // 設定值都不是必填
     sys: {
         level: "debug"
     },
