@@ -10,7 +10,7 @@
 
 ```
 SrAPI.fa(channelID).getStats({
-    inSeconds: 3600,        // 這些參數至少傳一個即可, 不強制都傳     
+    inSeconds: 3600,        // 這些全都是選擇性參數, 若都不下, 就只會用預設條件查   
     pseudodata: {
         headCount: true,
         mask: true
