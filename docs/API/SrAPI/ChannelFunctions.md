@@ -187,17 +187,103 @@ SrAPI.channel(channelID).getGaziru();
 
 ### getInfo
 
+取得特定頻道的基本資料
+
+#### 範例
+
+```
+SrAPI.channel(channelID).getInfo();
+```
+
+- `channelID: Number`
+
+#### 回應
+
+```
+{
+    channelName: "",            // 只是個名字.
+    event: "",                  // 當需要讓不同 channel 給不同活動使用, 可用這個來區隔.
+    description: "",            // 只是個描述.
+    zone: "",                   // 追蹤功能會根據此值來分區.
+    custom: {},                 // 可以隨便塞東西的通用欄位. 當向 FRS 直接同步資料, 會把整包都備份在這.
+}
+```
+
 ---
 
 ### getTCP
+
+取得特定頻道觸發 TCP 指令的資料 (未實裝)
+
+#### 範例
+
+```
+SrAPI.channel(channelID).getTCP();
+```
+
+- `channelID: Number`
+
+#### 回應
+
+```
+{
+    host: "",
+    port: 8888,
+    data: "",
+    enabled: false
+}
+```
 
 ---
 
 ### getUDP
 
+取得特定頻道觸發 UDP 指令的資料
+
+#### 範例
+
+```
+SrAPI.channel(channelID).getUDP();
+```
+
+- `channelID: Number`
+
+#### 回應
+
+```
+{
+    host: "",               // 目標 host
+    port: 8888,             // 目標 port
+    data: "",               // 空白隔開的十六進位字串, 例如 "0A 3B 45". 辨識成功時發出.
+    enabled: false
+}
+```
+
 ---
 
 ### getWSFeed
+
+取得特定頻道影像來源的連線資料
+
+> TODO: 連到 sdb-feed 章節
+
+#### 範例
+
+```
+SrAPI.channel(channelID).getWSFeed();
+```
+
+- `channelID: Number`
+
+#### 回應
+
+```
+{
+    host: "",
+    port: 8888,
+    enabled: false
+}
+```
 
 ---
 
