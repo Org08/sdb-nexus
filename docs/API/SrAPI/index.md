@@ -63,8 +63,8 @@
 
 # frRecord
 
-- Functions
-  - list
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md)
+  - [list](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md#list)
 
 ---
 
