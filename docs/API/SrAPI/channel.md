@@ -122,6 +122,7 @@ SrAPI.channel(channelID).getAll();
 
 ```
 SrAPI.channel(channelID).getBaoFeng();
+```
 
 ---
 
