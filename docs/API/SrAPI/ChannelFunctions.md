@@ -2,11 +2,11 @@
 
 ---
 
-### edit
+## edit
 
 修改 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro) 的任意資料
 
-#### 範例
+### 範例
 
 ```
 SrAPI.channel(channelID).edit(channelData);
@@ -16,17 +16,17 @@ SrAPI.channel(channelID).edit(channelData);
 
 - `channelData:` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
 
-#### 回應
+### 回應
 
 修改後的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
 
 ---
 
-### list
+## list
 
 列出所有頻道及其所有資料
 
-#### 範例
+### 範例
 
 ```
 SrAPI.channel().list();
@@ -38,30 +38,30 @@ Array of [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/S
 
 ---
 
-### getAll
+## getAll
 
 取得特定頻道的所有資料
 
-#### 範例
+### 範例
 
 ```
 SrAPI.channel(channelID).getAll();
 ```
 - `channelID: Number`
 
-#### 回應
+### 回應
 
 此頻道的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
 
 ---
 
-### getBaoFeng
+## getBaoFeng
 
 取得特定頻道的金融區整合資料
 
 (這通常只有一個頻道被設定)
 
-#### 範例
+### 範例
 
 ```
 SrAPI.channel(channelID).getBaoFeng();
@@ -69,7 +69,7 @@ SrAPI.channel(channelID).getBaoFeng();
 
 - `channelID: Number`
 
-#### 回應
+### 回應
 
 ```
 {
