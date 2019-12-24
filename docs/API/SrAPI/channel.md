@@ -68,35 +68,45 @@ ChannelData = {
 
 ---
 
-### add
-
-未開放
-
----
-
 ### edit
 
-- `channelID: number`
+修改 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro) 的任意資料
+
+- `channelID: Number`
 
 - `channelData:` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro)
+
+範例:
 
 ```
 SrAPI.channel(channelID).edit(channelData);
 ```
 
-
-
----
-
-### del
-
 ---
 
 ### list
 
+列出所有頻道及其所有資料
+
+範例:
+
+```
+SrAPI.channel().list();
+```
+
 ---
 
 ### getAll
+
+取得特定頻道的所有資料
+
+- `channelID: Number`
+
+範例:
+
+```
+SrAPI.channel(channelID).getAll();
+```
 
 ---
 
