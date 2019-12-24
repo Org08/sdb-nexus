@@ -289,6 +289,41 @@ SrAPI.channel(channelID).getWSFeed();
 
 ## setBaoFeng
 
+設定特定頻道的金融區整合資料
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setBaoFeng({ 
+    host: "",       // 這些參數至少傳一個即可, 不需要都傳
+    port: 8888,
+    token: "",
+    enabled: false
+});
+```
+
+- `channelID: Number`
+
+- `host: String`
+
+- `port: Number`
+
+- `token: String`
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    host: "",               // 目標 host
+    port: 8888,             // 目標 port
+    token: "",              // 驗證用的 token
+    enabled: false
+}
+```
+
 ---
 
 ## setFA
