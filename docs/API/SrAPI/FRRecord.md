@@ -41,7 +41,7 @@ SrAPI.frRecord(channelID).list({
 #### 回應
 
 ```
-{
+[{
     MemberName: "",
     Result: 1
     Score: 0.6694,
@@ -52,7 +52,9 @@ SrAPI.frRecord(channelID).list({
     channelID: 10,
     MemberID: ""
     updated: "2019-12-13T03:21:47.206Z"
-}
+},
+...
+]
 ```
 
 ---
