@@ -6,7 +6,7 @@
 
 修改 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md) 的任意資料
 
-### 範例
+#### 範例
 
 ```
 SrAPI.channel(channelID).edit(channelData);
@@ -16,7 +16,7 @@ SrAPI.channel(channelID).edit(channelData);
 
 - `channelData:` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
-### 回應
+#### 回應
 
 修改後的 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
