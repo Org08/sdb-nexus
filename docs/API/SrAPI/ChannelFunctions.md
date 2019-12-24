@@ -295,7 +295,7 @@ SrAPI.channel(channelID).getWSFeed()
 
 ```
 SrAPI.channel(channelID).setBaoFeng({ 
-    host: "",       // 這些參數至少傳一個即可, 不需要都傳
+    host: "",       // 這些參數至少傳一個即可, 不強制都傳
     port: 8888,
     token: "",
     enabled: false
@@ -334,7 +334,7 @@ SrAPI.channel(channelID).setBaoFeng({
 
 ```
 SrAPI.channel(channelID).setFA({ 
-    host: "",       // 這些參數至少傳一個即可, 不需要都傳
+    host: "",       // 這些參數至少傳一個即可, 不強制都傳
     port: 8888,
     enabled: false
 })
@@ -369,7 +369,7 @@ SrAPI.channel(channelID).setFA({
 
 ```
 SrAPI.channel(channelID).setFA({ 
-    host: "",               // 這些參數至少傳一個即可, 不需要都傳
+    host: "",               // 這些參數至少傳一個即可, 不強制都傳
     port: 8888,             
     threshold: [0.7, 0.7],  
     lingerMS: 500,          
@@ -384,7 +384,7 @@ SrAPI.channel(channelID).setFA({
 
 - `port: Number` socket server port
 
-- `threshold: [N]` 額外的門檻值, 通常都設成跟 socket server 上一樣即可.
+- `threshold: [Number]` 額外的門檻值, 通常都設成跟 socket server 上一樣即可.
 
 - `lingerMS: Number` 在這段時間內辨識到同一個人, 會被視為是同一次還在逗留, 不會觸發新的辨識結果.
 
@@ -409,6 +409,47 @@ SrAPI.channel(channelID).setFA({
 ---
 
 ## setFRSDBConn
+
+設定特定頻道的對應 socket server 資料庫的資料
+
+這會用於同步資料等情況
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setFRSDBConn({ 
+    user: "",          // 這些參數至少傳一個即可, 不強制都傳     
+    password: "",
+    server: "",
+    database: "",
+    enabled: false,
+})
+```
+
+- `channelID: Number`
+
+- `user: String` db user
+
+- `password: String` db password
+
+- `server: String` db url
+
+- `database: Number` db name
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    user: "aaaa",               
+    password: "bbbb",
+    server: "1.1.1.1",
+    database: "DBDBDB",
+    enabled: false,
+}
+```
 
 ---
 
