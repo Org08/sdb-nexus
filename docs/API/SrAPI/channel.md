@@ -76,10 +76,14 @@ ChannelData = {
 
 ### edit
 
-```
-SrAPI.channel(channelID).edit(ChannelData);
+channelID: number
+
+channelData: [https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/channel.md#intro](ChannelData)
 
 ```
+SrAPI.channel(channelID).edit(channelData);
+```
+
 
 
 ---
