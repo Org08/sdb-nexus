@@ -14,20 +14,40 @@
 SrAPI.connect(url)
 ```
 
-`url: String` sdb-nexus 的 ip 和 port 組成的字串.
+- `url: String` sdb-nexus server 的 ip 和 port 組成的字串.
 
-#### 回應
+---
+
+## login
+
+登入.
+
+成功的登入會被儲存, 下次 connect 後會自動登入, 直到主動呼叫 logout 才清除.
+
+#### 範例
 
 ```
-{
-    thecode: "",
-    user: {
-        username: "",
-        nickname: "",
-        group: 1,
-        status: 1
-    }
-}
+SrAPI.login({
+    username: "",
+    password: ""
+})
+```
+
+- `username: String`
+
+- `password: String`
+
+
+---
+
+## logput
+
+登出.
+
+#### 範例
+
+```
+SrAPI.logout()
 ```
 
 ---
