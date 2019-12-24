@@ -492,6 +492,49 @@ SrAPI.channel(channelID).setGaziru({
 
 ## setInfo
 
+設定特定頻道的基本資料
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setInfo({
+    channelName: "",        // 這些參數至少傳一個即可, 不強制都傳     
+    event: "", 
+    description: "", 
+    zone: "",
+    custom: {},
+    enabled: false,
+})
+```
+
+- `channelID: Number`
+
+- `channelName: String` 只是個名字.
+
+- `event: String` 當需要讓不同 channel 給不同活動使用, 可用這個來區隔.
+
+- `description: String` 只是個描述.
+
+- `zone: String` 追蹤功能會根據此值來分區.
+
+- `custom: Object` 可以隨便塞東西的通用欄位. 當向 FRS 直接同步資料, 會把整包都備份在這.
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    channelName: "", 
+    event: "", 
+    description: "", 
+    zone: "",
+    custom: {},
+}
+```
+
+
 ---
 
 ## setTCP
