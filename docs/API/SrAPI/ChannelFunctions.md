@@ -455,6 +455,39 @@ SrAPI.channel(channelID).setFRSDBConn({
 
 ## setGaziru
 
+設定特定頻道的對應 gaziru 的連線資料
+
+在 gaziru 所在的機器, 需要有 gaziru-parser 負責當中介
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setGaziru({ 
+    host: "",          // 這些參數至少傳一個即可, 不強制都傳     
+    port: "",
+    enabled: false,
+})
+```
+
+- `channelID: Number`
+
+- `host: String` host
+
+- `port: Number` gaziru-parser 開的 port, 目前固定是 8787.
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    host: "", 
+    port: 8787,
+    enabled: false
+}
+```
+
 ---
 
 ## setInfo
