@@ -9,7 +9,7 @@
 #### 範例
 
 ```
-SrAPI.channel(channelID).edit(channelData);
+SrAPI.channel(channelID).edit(channelData)
 ```
 
 - `channelID: Number`
@@ -29,7 +29,7 @@ SrAPI.channel(channelID).edit(channelData);
 #### 範例
 
 ```
-SrAPI.channel().list();
+SrAPI.channel().list()
 ```
 
 #### 回應
@@ -45,7 +45,7 @@ SrAPI.channel().list();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getAll();
+SrAPI.channel(channelID).getAll()
 ```
 - `channelID: Number`
 
@@ -62,7 +62,7 @@ SrAPI.channel(channelID).getAll();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getBaoFeng();
+SrAPI.channel(channelID).getBaoFeng()
 ```
 
 - `channelID: Number`
@@ -87,7 +87,7 @@ SrAPI.channel(channelID).getBaoFeng();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getFA();
+SrAPI.channel(channelID).getFA()
 ```
 
 - `channelID: Number`
@@ -111,7 +111,7 @@ SrAPI.channel(channelID).getFA();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getFR();
+SrAPI.channel(channelID).getFR()
 ```
 
 - `channelID: Number`
@@ -140,7 +140,7 @@ SrAPI.channel(channelID).getFR();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getFRSDBConn();
+SrAPI.channel(channelID).getFRSDBConn()
 ```
 
 - `channelID: Number`
@@ -168,7 +168,7 @@ SrAPI.channel(channelID).getFRSDBConn();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getGaziru();
+SrAPI.channel(channelID).getGaziru()
 ```
 
 - `channelID: Number`
@@ -192,7 +192,7 @@ SrAPI.channel(channelID).getGaziru();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getInfo();
+SrAPI.channel(channelID).getInfo()
 ```
 
 - `channelID: Number`
@@ -218,7 +218,7 @@ SrAPI.channel(channelID).getInfo();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getTCP();
+SrAPI.channel(channelID).getTCP()
 ```
 
 - `channelID: Number`
@@ -243,7 +243,7 @@ SrAPI.channel(channelID).getTCP();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getUDP();
+SrAPI.channel(channelID).getUDP()
 ```
 
 - `channelID: Number`
@@ -270,7 +270,7 @@ SrAPI.channel(channelID).getUDP();
 #### 範例
 
 ```
-SrAPI.channel(channelID).getWSFeed();
+SrAPI.channel(channelID).getWSFeed()
 ```
 
 - `channelID: Number`
@@ -299,16 +299,16 @@ SrAPI.channel(channelID).setBaoFeng({
     port: 8888,
     token: "",
     enabled: false
-});
+})
 ```
 
 - `channelID: Number`
 
-- `host: String`
+- `host: String` 目標 host
 
-- `port: Number`
+- `port: Number` 目標 port
 
-- `token: String`
+- `token: String` 驗證用的 token
 
 - `enabled: Boolean`
 
@@ -317,9 +317,9 @@ SrAPI.channel(channelID).setBaoFeng({
 
 ```
 {
-    host: "",               // 目標 host
-    port: 8888,             // 目標 port
-    token: "",              // 驗證用的 token
+    host: "",
+    port: 8888,
+    token: "",
     enabled: false
 }
 ```
@@ -328,9 +328,83 @@ SrAPI.channel(channelID).setBaoFeng({
 
 ## setFA
 
+設定特定頻道的 FA 資料
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setFA({ 
+    host: "",       // 這些參數至少傳一個即可, 不需要都傳
+    port: 8888,
+    enabled: false
+})
+```
+
+- `channelID: Number`
+
+- `host: String` 這是 sdb-nexus 本身的 IP, 因為是這裡當 server, 給 fa 丟資料進來.
+
+- `port: Number` 承上, 這是開給 fa 連的 port.
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    host: "",
+    port: 8888,
+    enabled: false
+}
+```
+
 ---
 
 ## setFR
+
+設定特定頻道的對人臉辨識的 socket server 的連線資料
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setFA({ 
+    host: "",               // 這些參數至少傳一個即可, 不需要都傳
+    port: 8888,             
+    threshold: [0.7, 0.7],  
+    lingerMS: 500,          
+    enrollStranger: false,  
+    enabled: false
+})
+```
+
+- `channelID: Number`
+
+- `host: String` socket server host
+
+- `port: Number` socket server port
+
+- `threshold: [N]` 額外的門檻值, 通常都設成跟 socket server 上一樣即可.
+
+- `lingerMS: Number` 在這段時間內辨識到同一個人, 會被視為是同一次還在逗留, 不會觸發新的辨識結果.
+
+- `enrollStranger: Boolean` 自動幫陌生人建檔. 
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    host: "",              
+    port: 8888,            
+    threshold: [0.7, 0.7], 
+    lingerMS: 500,         
+    enrollStranger: false, 
+    enabled: false
+}
+```
 
 ---
 
