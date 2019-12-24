@@ -530,7 +530,7 @@ SrAPI.channel(channelID).setInfo({
     event: "", 
     description: "", 
     zone: "",
-    custom: {},
+    custom: {}
 }
 ```
 
@@ -539,12 +539,116 @@ SrAPI.channel(channelID).setInfo({
 
 ## setTCP
 
+設定特定頻道觸發 TCP 指令的資料 (未實裝)
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setTCP({
+    host: "",           // 這些參數至少傳一個即可, 不強制都傳  
+    port: 8888,
+    data: "",
+    enabled: false
+})
+```
+
+- `channelID: Number`
+
+- `host: String`
+
+- `port: Number`
+
+- `data: String`
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    host: "",
+    port: 8888,
+    data: "",
+    enabled: false
+}
+```
+
+
 ---
 
 ## setUDP
 
+設定特定頻道觸發 UDP 指令的資料
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setUDP({
+    host: "",           // 這些參數至少傳一個即可, 不強制都傳  
+    port: 8888,
+    data: "",
+    enabled: false
+})
+```
+
+- `channelID: Number`
+
+- `host: String` 目標 host.
+
+- `port: Number` 目標 port.
+
+- `data: String` 空白隔開的十六進位字串, 例如 "0A 3B 45". 辨識成功時發出.
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    host: "",
+    port: 8888,
+    data: "",
+    enabled: false
+}
+```
+
 ---
 
 ## setWSFeed
+
+設定特定頻道影像來源的連線資料
+
+> TODO: 連到 sdb-feed 章節
+
+#### 範例
+
+```
+SrAPI.channel(channelID).setWSFeed({
+    host: "",           // 這些參數至少傳一個即可, 不強制都傳  
+    port: 8888,
+    enabled: false
+})
+```
+
+- `channelID: Number`
+
+- `host: String`
+
+- `port: Number`
+
+- `enabled: Boolean`
+
+
+#### 回應
+
+```
+{
+    host: "",
+    port: 8888,
+    enabled: false
+}
+```
 
 ---
