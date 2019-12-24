@@ -1,6 +1,15 @@
 
 ---
 
+# System
+
+- Functions
+  - connect
+  - login
+  - logout
+
+---
+
 # Channel
 
 - [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
@@ -37,5 +46,79 @@
   - [clearProbe](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#clearProbe)
   - [getStore](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#getStore)
   - [setLog](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setLog)
+
+---
+
+# fa
+
+- Functions
+  - getStats
+
+---
+
+# frRecord
+
+- Functions
+  - list
+
+---
+
+# h264Player
+
+- Functions
+  - getUrl
+
+---
+
+# member
+
+- Functions
+  - add
+  - del
+  - edit
+  - find
+  - list
+
+---
+
+# monitor
+
+
+
+---
+
+# pts
+
+- Functions
+  - list
+
+---
+
+# store
+
+- Functions
+  - checkout
+  - recharge
+
+---
+
+# storeItem
+
+- Functions
+  - add
+  - del
+  - edit
+  - find
+  - list
+
+---
+
+# trigger
+
+- Functions
+  - baofeng
+  - frDBSync
+  - info
+  - udp
 
 ---
