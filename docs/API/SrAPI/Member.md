@@ -57,8 +57,6 @@ SrAPI.member(channelID).edit(MemberData)
 
 列出符合條件的 member
 
-> TODO: 以下未修改
-
 #### 範例
 
 ```
@@ -110,5 +108,29 @@ SrAPI.member(channelID).enroll(MemberData)
 #### 回應
 
 `新增的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
+---
+
+## del
+
+刪除 member
+
+#### 範例
+
+```
+SrAPI.member(channelID).del({
+    MemberID: ""
+})
+```
+
+- `channelID: Number`
+
+- `MemberID: String` 
+
+#### 回應
+
+`刪除的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
+> 實際上是 MemberData.status 被改成 0
 
 ---
