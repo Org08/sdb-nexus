@@ -77,12 +77,12 @@
 
 # member
 
-- Functions
-  - add
-  - del
-  - edit
-  - find
-  - list
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md)
+  - [add](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#add)
+  - [edit](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#edit)
+  - [list](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#list)
+  - [enroll](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#enroll)
+  - [del](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#del)
 
 ---
 
