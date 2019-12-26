@@ -90,3 +90,25 @@ SrAPI.member(channelID).list({
 `Array of` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
 ---
+
+## enroll
+
+新增 member, 且向辨識引擎建檔
+
+#### 範例
+
+```
+SrAPI.member(channelID).enroll(MemberData)
+```
+
+- `channelID: Number`
+
+- `MemberData: ` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
+> MemberData.MemberID 和 MemberData.image 必填
+
+#### 回應
+
+`新增的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
+---
