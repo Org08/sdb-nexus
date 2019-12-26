@@ -12,7 +12,6 @@
 
 > TODO: 連結到 enroll
 
-> TODO: 以下都還沒修改
 
 #### 範例
 
@@ -28,5 +27,28 @@ SrAPI.member(channelID).add(MemberData)
 #### 回應
 
 `新增的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
+---
+
+## edit
+
+修改 [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
+這只會修改本地資料庫
+
+#### 範例
+
+```
+SrAPI.member(channelID).edit(MemberData)
+```
+
+- `channelID: Number`
+
+- `MemberData: ` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
+
+#### 回應
+
+`修改後的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
 ---
