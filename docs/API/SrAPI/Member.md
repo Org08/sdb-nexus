@@ -8,10 +8,7 @@
 
 這只會新增在本地資料庫, 不會對臉辨引擎建檔
 
-若想要直接建檔, 要使用 enroll 
-
-> TODO: 連結到 enroll
-
+若想要直接建檔, 要使用 [enroll](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#enroll) 
 
 #### 範例
 
