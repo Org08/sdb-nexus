@@ -123,7 +123,7 @@
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md)
   - [baofeng](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#baofeng)
-  - [frDBSync](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#frDBSync)
+  - [frDBSync](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#frsdbsync)
   - [info](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#info)
   - [udp](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#udp)
 
