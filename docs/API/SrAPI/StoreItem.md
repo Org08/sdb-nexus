@@ -32,14 +32,7 @@ SrAPI.storeItem(channelID).add({
 
 #### 回應
 
-```
-{
-    code: "AAAAAAAAAAA",
-    name: "AAA",
-    price: 100,
-    description: ""
-}
-```
+`新增的` [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItemData.md)
 
 ---
 
@@ -71,14 +64,7 @@ SrAPI.storeItem(channelID).edit({
 
 #### 回應
 
-```
-{
-    code: "AAAAAAAAAAA",
-    name: "AAA",
-    price: 100,
-    description: ""
-}
-```
+`修改的` [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItemData.md)
 
 ---
 
@@ -104,16 +90,7 @@ SrAPI.storeItem(channelID).list({
 
 #### 回應
 
-```
-[{
-    code: "AAAAAAAAAAA",
-    name: "AAA",
-    price: 100,
-    description: ""
-}, 
-...
-]
-```
+`Array of` [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItemData.md)
 
 ---
 
@@ -137,14 +114,7 @@ SrAPI.storeItem(channelID).find({
 
 #### 回應
 
-```
-{
-    code: "AAAAAAAAAAA",
-    name: "AAA",
-    price: 100,
-    description: ""
-}
-```
+`查到的` [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItemData.md)
 
 ---
 
@@ -166,14 +136,8 @@ SrAPI.storeItem(channelID).del({
 
 #### 回應
 
-```
-{
-    code: "AAAAAAAAAAA",
-    name: "AAA",
-    price: 100,
-    description: "",
-    status: 0
-}
-```
+`刪除的` [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItemData.md)
+
+> 實際上是 StoreItemData.status 被改成 0
 
 ---
