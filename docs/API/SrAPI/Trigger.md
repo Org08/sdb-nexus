@@ -51,39 +51,32 @@ SrAPI.trigger(channelID).frsDBSync({
 
 ---
 
-## list
+## info
 
-列出符合條件的 member
+模擬接收到臉辨結果時, 轉傳給前端的動作
 
 #### 範例
 
 ```
-SrAPI.member(channelID).list({
-    skip: 10,         // 這些全都是選擇性參數, 若都不下, 就只會用預設條件查 
-    limit: 20,
-    MemberID: "",
-    MemberName: "",
-    group: 1
+SrAPI.trigger(channelID).info({
+    MemberID: MemberID
 })
 ```
 
 - `channelID: Number`
 
-- `skip: Number` 略過幾筆. 預設 0.
-
-- `limit: Number` 一次傳幾筆. 預設 20.
-
-- `MemberID: String` 
-
-- `MemberName: String` 
-
-- `group: Number` -1: 陌生人, 0:黑名單, 1: 一般, 2: VIP, 3: 經銷商, 4: 客戶, 5: 員工
-
-> NOTE: group 欄位目前沒有跟現場協調過, 這是之前合作時的定義
+- `MemberID: String` 非必填
 
 #### 回應
 
-`Array of` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+若發生錯誤, 會收到系統內部的錯誤訊息
+
+若未填 `MemberID`, 會發送內建固定資料
+
+若填了 `MemerID`, 會查詢本地資料庫, 並發送該資料
+
+若填了 `MemerID`, 但查不到, 會回應 `MEMBER_NOT_FOUND`
+
 
 ---
 
