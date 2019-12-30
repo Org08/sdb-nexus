@@ -33,7 +33,7 @@ SrAPI.monitor(channelID).connect({
 
 ---
 
-## 接收資料
+## Events
 
 ### frame
 
