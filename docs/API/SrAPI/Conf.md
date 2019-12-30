@@ -15,13 +15,16 @@
 ```
 SrAPI.conf().addProbe({
     flag: "sys",
-    level: "info"
+    level: "info",
+    channelID: 1
 })
 ```
 
 - `flag: String` sys, channel, member, store, storeItem, fa, fr, feed, gaziru, tcp, udp, frsdb, baofeng, frRecord, pts, trigger, conf, h264player
 
 - `level: String` all, debug, info, warn, error, fatal
+
+- `channelID: Number` 除了 sys 以外, 其他都可用 channelID 區隔
 
 ---
 
