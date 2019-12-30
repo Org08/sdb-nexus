@@ -36,3 +36,5 @@ SrAPI.fa(channelID).getStats({
 接收用來刷新前端介面的即時資料
 
 [Monitor.on.fa](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#fa)
+
+---
