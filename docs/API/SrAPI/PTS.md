@@ -34,7 +34,7 @@ SrAPI.pts(channelID).getStats({
     MemberName: MemberName,
     Image: "",              // base64 string
     paths: [ path ],        // 依時間序排列
-    zones: zones
+    zones: zones            // 各區停留時間
 }
 
 // 以下是各組資料細節
