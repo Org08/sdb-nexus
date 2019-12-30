@@ -94,8 +94,9 @@
 
 # pts
 
-- Functions
-  - list
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md)
+  - [getStats](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md#getStats)
+- [即時資料](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md#%E5%8D%B3%E6%99%82%E8%B3%87%E6%96%99)
 
 ---
 
