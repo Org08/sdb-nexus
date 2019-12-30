@@ -99,6 +99,14 @@ SrAPI.monitor(channelID).on("member", (MemberData) => {
 
 ### gaziru
 
+```
+SrAPI.monitor(channelID).on("gaziru", (StoreItemData) => {
+
+})
+```
+
+- `StoreItemData:` [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItemData.md)
+
 ### fa
 
 ---
