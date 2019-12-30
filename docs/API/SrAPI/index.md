@@ -110,12 +110,12 @@
 
 # storeItem
 
-- Functions
-  - add
-  - del
-  - edit
-  - find
-  - list
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md)
+  - [add](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#add)
+  - [edit](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#edit)
+  - [list](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#list)
+  - [find](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#find)
+  - [del](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#del)
 
 ---
 
