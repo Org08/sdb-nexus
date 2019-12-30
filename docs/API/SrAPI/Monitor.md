@@ -109,4 +109,12 @@ SrAPI.monitor(channelID).on("gaziru", (StoreItemData) => {
 
 ### fa
 
+```
+SrAPI.monitor(channelID).on("fa", (FAData) => {
+
+})
+```
+
+- `FAData:` [FAData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FAData.md)
+
 ---
