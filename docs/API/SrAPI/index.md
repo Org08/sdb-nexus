@@ -102,9 +102,9 @@
 
 # store
 
-- Functions
-  - checkout
-  - recharge
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md)
+  - [checkout](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md#checkout)
+  - [recharge](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md#recharge)
 
 ---
 
