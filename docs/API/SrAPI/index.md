@@ -88,7 +88,15 @@
 
 # monitor
 
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md)
+  - [connect](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#connect)
 
+- [Events](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#events)
+  - [frame](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#frame)
+  - [face](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#face)
+  - [member](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MembMonitorer.md#member)
+  - [gaziru](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#gaziru)
+  - [fa](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#fa)
 
 ---
 
