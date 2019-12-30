@@ -20,9 +20,9 @@ SrAPI.trigger(channelID).baofeng()
 
 #### 回應
 
-若發生錯誤, 會收到金融區回傳的 body
+若發生錯誤, 會收到金融區回傳的 `body`
 
-若運作正常, 只會收到 undefined
+若運作正常, 只會收到 `undefined`
 
 ---
 
@@ -47,7 +47,7 @@ SrAPI.trigger(channelID).frsDBSync({
 
 若發生錯誤, 會收到系統內部的錯誤訊息
 
-若運作正常, 只會收到 undefined
+若運作正常, 只會收到 `undefined`
 
 ---
 
@@ -80,48 +80,23 @@ SrAPI.trigger(channelID).info({
 
 ---
 
-## enroll
+## udp
 
-新增 member, 且向辨識引擎建檔
-
-#### 範例
-
-```
-SrAPI.member(channelID).enroll(MemberData)
-```
-
-- `channelID: Number`
-
-- `MemberData: ` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
-
-> MemberData.MemberID 和 MemberData.image 必填
-
-#### 回應
-
-`新增的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
-
----
-
-## del
-
-刪除 member
+發送預先設定的資料
 
 #### 範例
 
 ```
-SrAPI.member(channelID).del({
-    MemberID: ""
-})
+SrAPI.trigger(channelID).udp()
 ```
 
 - `channelID: Number`
 
-- `MemberID: String` 
 
 #### 回應
 
-`刪除的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+若發生錯誤, 會收到 `[trigger][udp][e] ` 後面接錯誤訊息
 
-> 實際上是 MemberData.status 被改成 0
+若運作正常, 會收到 `[trigger][udp] ` 後面接送出的預設資料
 
 ---
