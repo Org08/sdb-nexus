@@ -84,17 +84,14 @@ SrAPI.storeItem(channelID).edit({
 
 ## list
 
-列出符合條件的 member
+列出符合條件的商品
 
 #### 範例
 
 ```
-SrAPI.member(channelID).list({
+SrAPI.storeItem(channelID).list({
     skip: 10,         // 這些全都是選擇性參數, 若都不下, 就只會用預設條件查 
     limit: 20,
-    MemberID: "",
-    MemberName: "",
-    group: 1
 })
 ```
 
@@ -104,62 +101,79 @@ SrAPI.member(channelID).list({
 
 - `limit: Number` 一次傳幾筆. 預設 20.
 
-- `MemberID: String` 
-
-- `MemberName: String` 
-
-- `group: Number` -1: 陌生人, 0:黑名單, 1: 一般, 2: VIP, 3: 經銷商, 4: 客戶, 5: 員工
-
-> NOTE: group 欄位目前沒有跟現場協調過, 這是之前合作時的定義
 
 #### 回應
 
-`Array of` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+```
+[{
+    code: "AAAAAAAAAAA",
+    name: "AAA",
+    price: 100,
+    description: ""
+}, 
+...
+]
+```
 
 ---
 
-## enroll
+## find
 
-新增 member, 且向辨識引擎建檔
+查詢單個 barcode
+
+通常用於掃描條碼後的查詢
 
 #### 範例
 
 ```
-SrAPI.member(channelID).enroll(MemberData)
-```
-
-- `channelID: Number`
-
-- `MemberData: ` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
-
-> MemberData.MemberID 和 MemberData.image 必填
-
-#### 回應
-
-`新增的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
-
----
-
-## del
-
-刪除 member
-
-#### 範例
-
-```
-SrAPI.member(channelID).del({
-    MemberID: ""
+SrAPI.storeItem(channelID).find({
+    code: code
 })
 ```
 
 - `channelID: Number`
 
-- `MemberID: String` 
+- `code: String` 商品的 Barcode
 
 #### 回應
 
-`刪除的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+```
+{
+    code: "AAAAAAAAAAA",
+    name: "AAA",
+    price: 100,
+    description: ""
+}
+```
 
-> 實際上是 MemberData.status 被改成 0
+---
+
+## del
+
+刪除商品
+
+#### 範例
+
+```
+SrAPI.storeItem(channelID).del({
+    code: code
+})
+```
+
+- `channelID: Number`
+
+- `code: String` 商品的 Barcode
+
+#### 回應
+
+```
+{
+    code: "AAAAAAAAAAA",
+    name: "AAA",
+    price: 100,
+    description: "",
+    status: 0
+}
+```
 
 ---
