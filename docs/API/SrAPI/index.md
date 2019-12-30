@@ -121,10 +121,10 @@
 
 # trigger
 
-- Functions
-  - baofeng
-  - frDBSync
-  - info
-  - udp
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md)
+  - [baofeng](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#baofeng)
+  - [frDBSync](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#frDBSync)
+  - [info](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#info)
+  - [udp](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#udp)
 
 ---
