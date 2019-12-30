@@ -89,6 +89,14 @@ face = {
 
 ### member
 
+```
+SrAPI.monitor(channelID).on("member", (MemberData) => {
+
+})
+```
+
+- `MemberData:` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
 ### gaziru
 
 ### fa
