@@ -127,7 +127,11 @@
 
 ## pts
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md)
+
+- [PTSData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md#ptsdata)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md#functions)
   - [getStats](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md#getStats)
 
 ---
