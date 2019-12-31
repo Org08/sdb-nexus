@@ -1,8 +1,12 @@
 # Member
 
----
+## MemberData
 
-## add
+Member 的完整資料格式是 [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
+
+## Functions
+
+### add
 
 新增 member
 
@@ -12,7 +16,7 @@
 
 #### 範例
 
-```
+```javascript
 SrAPI.member(channelID).add(MemberData)
 ```
 
@@ -27,7 +31,7 @@ SrAPI.member(channelID).add(MemberData)
 
 ---
 
-## edit
+### edit
 
 修改 member
 
@@ -35,7 +39,7 @@ SrAPI.member(channelID).add(MemberData)
 
 #### 範例
 
-```
+```javascript
 SrAPI.member(channelID).edit(MemberData)
 ```
 
@@ -50,13 +54,13 @@ SrAPI.member(channelID).edit(MemberData)
 
 ---
 
-## list
+### list
 
 列出符合條件的 member
 
 #### 範例
 
-```
+```javascript
 SrAPI.member(channelID).list({
     skip: 10,         // 這些全都是選擇性參數, 若都不下, 就只會用預設條件查 
     limit: 20,
@@ -86,13 +90,13 @@ SrAPI.member(channelID).list({
 
 ---
 
-## enroll
+### enroll
 
 新增 member, 且向辨識引擎建檔
 
 #### 範例
 
-```
+```javascript
 SrAPI.member(channelID).enroll(MemberData)
 ```
 
@@ -108,13 +112,13 @@ SrAPI.member(channelID).enroll(MemberData)
 
 ---
 
-## del
+### del
 
 刪除 member
 
 #### 範例
 
-```
+```javascript
 SrAPI.member(channelID).del({
     MemberID: ""
 })
