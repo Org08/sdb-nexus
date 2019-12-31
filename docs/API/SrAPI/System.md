@@ -3,10 +3,6 @@
 
 ---
 
-## Intro
-
----
-
 ## Functions
 
 ---
