@@ -4,7 +4,7 @@
 
 FRRecord 的完整資料格式是 [FRRecordData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecordData.md)
 
----
+## Functions
 
 ### list
 
