@@ -9,7 +9,7 @@
 
 ---
 
-# System
+## System
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/System.md)
 
@@ -20,7 +20,7 @@
 
 ---
 
-# Channel
+## Channel
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md)
 
@@ -51,7 +51,7 @@
 
 ---
 
-# Conf
+## Conf
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md)
 
@@ -63,7 +63,7 @@
 
 ---
 
-# fa
+## fa
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FA.md)
 
@@ -74,21 +74,21 @@
 
 ---
 
-# frRecord
+## frRecord
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md)
   - [list](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md#list)
 
 ---
 
-# h264Player
+## h264Player
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/H264Player.md)
   - [getUrl](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/H264Player.md#getUrl)
 
 ---
 
-# member
+## member
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md)
   - [add](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#add)
@@ -99,7 +99,7 @@
 
 ---
 
-# monitor
+## monitor
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md)
   - [connect](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#connect)
@@ -113,14 +113,14 @@
 
 ---
 
-# pts
+## pts
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md)
   - [getStats](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md#getStats)
 
 ---
 
-# store
+## store
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md)
   - [checkout](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md#checkout)
@@ -128,7 +128,7 @@
 
 ---
 
-# storeItem
+## storeItem
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md)
   - [add](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#add)
@@ -139,7 +139,7 @@
 
 ---
 
-# trigger
+## trigger
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md)
   - [baofeng](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#baofeng)
