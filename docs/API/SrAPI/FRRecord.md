@@ -1,14 +1,18 @@
 # FRRecord
 
+## FRRecordData
+
+FRRecord 的完整資料格式是 [FRRecordData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecordData.md)
+
 ---
 
-## list
+### list
 
 列出人臉辨識紀錄
 
 #### 範例
 
-```
+```javascipt
 SrAPI.frRecord(channelID).list({
     skip: 10,         // 這些全都是選擇性參數, 若都不下, 就只會用預設條件查 
     limit: 20,
@@ -40,21 +44,6 @@ SrAPI.frRecord(channelID).list({
 
 #### 回應
 
-```
-[{
-    MemberName: "",
-    Result: 1
-    Score: 0.6694,
-    MatchImage: "", // base64 string
-    group: 1,
-    status: 1,
-    event: "",
-    channelID: 10,
-    MemberID: ""
-    updated: "2019-12-13T03:21:47.206Z"
-},
-...
-]
-```
+`Array of` [FRRecordData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecordData.md)
 
 ---
