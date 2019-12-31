@@ -32,7 +32,7 @@
     // gaziru
     gaziru: { type: GaziruSchema, default: GaziruSchema },
 
-    // 寶豐, showroom 金融區, post 資料過去
+    // 金融區, post 資料過去
     baofeng: { type: BaoFengSchema, default: BaoFengSchema },
 
     // FRS 資料庫
