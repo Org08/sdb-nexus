@@ -3,7 +3,7 @@
 
 每個 channel 都是由以下資料組成, 用來控制其具備的功能
 
-```
+```javascript
 ChannelData = {
     channelName: "",            // 只是個名字.
     event: "",                  // 當需要讓不同 channel 給不同活動使用, 可用這個來區隔.
