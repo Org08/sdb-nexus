@@ -12,7 +12,7 @@ FRRecord 的完整資料格式是 [FRRecordData](https://github.com/Org08/sdb-ne
 
 #### 範例
 
-```javascipt
+```javascript
 SrAPI.frRecord(channelID).list({
     skip: 10,         // 這些全都是選擇性參數, 若都不下, 就只會用預設條件查 
     limit: 20,
