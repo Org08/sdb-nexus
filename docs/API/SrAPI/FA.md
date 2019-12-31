@@ -1,14 +1,16 @@
 # FA
 
----
+FA 統計資料
 
-## getStats
+## Functions
+
+### getStats
 
 取得 FA 統計資料
 
 #### 範例
 
-```
+```javascript
 SrAPI.fa(channelID).getStats({
     inSeconds: 3600,        // 這些全都是選擇性參數, 若都不下, 就只會用預設條件查   
     pseudodata: {
@@ -31,7 +33,7 @@ SrAPI.fa(channelID).getStats({
 
 ---
 
-## 即時資料
+### 即時資料
 
 接收用來刷新前端介面的即時資料
 
