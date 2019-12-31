@@ -6,8 +6,8 @@
 ## Schema
 
 - [Channel](https://github.com/Org08/sdb-nexus/blob/master/docs/DBSchema/Channel.md)
-- [FARecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema)
-- FRRecord
+- [FARecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/FARecord.md)
+- [FRRecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/FRRecord.md)
 - Member
 - PTSRecord
 - StoreItem
