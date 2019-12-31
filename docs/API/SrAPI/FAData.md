@@ -1,7 +1,7 @@
 
 # FAData
 
-```
+```javascript
 {
     channelID: channelID,
     headCount: headCount,
