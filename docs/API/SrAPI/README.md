@@ -1,5 +1,13 @@
 
-# Intro
+# SrAPI
+
+前端元件
+
+可以直接在瀏覽器開發者頁面的 console 當指令使用
+
+也可以當網頁元件整合
+
+元件可從 `https://[server_ip]:8443/js/api.js` 取得
 
 ---
 
