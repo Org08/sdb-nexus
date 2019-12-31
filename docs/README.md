@@ -15,15 +15,7 @@
   - WebService
   - WebSocket
 
-- DB Schema
-  - Channel
-  - FARecord
-  - FRRecord
-  - Member
-  - PTSRecord
-  - StoreItem
-  - SysLog
-  - User
+- [DB Schema](https://github.com/Org08/sdb-nexus/blob/master/docs/DBSchema/README.md)
 
 - 內建頁面
   - api
