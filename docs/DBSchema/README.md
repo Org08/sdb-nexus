@@ -8,8 +8,8 @@
 - [Channel](https://github.com/Org08/sdb-nexus/blob/master/docs/DBSchema/Channel.md)
 - [FARecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/FARecord.md)
 - [FRRecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/FRRecord.md)
-- [Member](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/M.md)
-- PTSRecord
-- StoreItem
-- SysLog
-- User
+- [Member](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Member.md)
+- [PTSRecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/PTSRecord.md)
+- [StoreItem](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/StoreItem.md)
+- [SysLog](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/SysLog.md)
+- [User](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/User.md)
