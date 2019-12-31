@@ -31,8 +31,8 @@ SrAPI.connect(url)
 
 ```
 SrAPI.login({
-    username: "",
-    password: ""
+    username: username,
+    password: password
 })
 ```
 
