@@ -11,7 +11,7 @@
 
 其他所有功能, 都會在連線成功後才載入
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.connect(url)
@@ -27,7 +27,7 @@ SrAPI.connect(url)
 
 成功的登入會被儲存, 下次 connect 後會自動登入, 直到主動呼叫 logout 才清除
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.login({
@@ -47,7 +47,7 @@ SrAPI.login({
 
 登出
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.logout()
