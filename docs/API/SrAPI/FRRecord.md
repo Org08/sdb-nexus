@@ -10,7 +10,7 @@ FRRecord 的完整資料格式是 [FRRecordData](https://github.com/Org08/sdb-ne
 
 列出人臉辨識紀錄
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.frRecord(channelID).list({
@@ -42,7 +42,7 @@ SrAPI.frRecord(channelID).list({
 
 > NOTE: group 欄位目前沒有跟現場協調過, 這是之前合作時的定義
 
-#### 回應
+##### 回應
 
 `Array of` [FRRecordData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecordData.md)
 
