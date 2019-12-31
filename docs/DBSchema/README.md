@@ -6,10 +6,10 @@
 ## Schema
 
 - [Channel](https://github.com/Org08/sdb-nexus/blob/master/docs/DBSchema/Schema.md#channel)
-- [FARecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#farecord.md)
-- [FRRecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#frrecord.md)
-- [Member](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#nember.md)
-- [PTSRecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#ptsrecord.md)
-- [StoreItem](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#storeitem.md)
-- [SysLog](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#syslog.md)
-- [User](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#user.md)
+- [FARecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#farecord)
+- [FRRecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#frrecord)
+- [Member](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#nember)
+- [PTSRecord](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#ptsrecord)
+- [StoreItem](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#storeitem)
+- [SysLog](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#syslog)
+- [User](https://github.com/Org08/sdb-nexus/tree/master/docs/DBSchema/Schema.md#user)
