@@ -4,21 +4,21 @@
 
 可以當整合用的節點, 或是測試運作
 
----
+## Functions
 
-## baofeng
+### baofeng
 
 發送內建照片給金融區
 
-#### 範例
+##### 範例
 
-```
+```javascript
 SrAPI.trigger(channelID).baofeng()
 ```
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 若發生錯誤, 會收到金融區回傳的 `body`
 
@@ -26,13 +26,13 @@ SrAPI.trigger(channelID).baofeng()
 
 ---
 
-## frsDBSync
+### frsDBSync
 
 從臉辨引擎同步建檔資料至本系統
 
-#### 範例
+##### 範例
 
-```
+```javascript
 SrAPI.trigger(channelID).frsDBSync({
     fromSeq: fromSeq
 })
@@ -43,7 +43,7 @@ SrAPI.trigger(channelID).frsDBSync({
 - `fromSeq: Number` 指定從目標 DB 中的哪個 Seq 開始撈. 最小值為 1. 非必填.
 
 
-#### 回應
+##### 回應
 
 若發生錯誤, 會收到系統內部的錯誤訊息
 
@@ -51,13 +51,13 @@ SrAPI.trigger(channelID).frsDBSync({
 
 ---
 
-## info
+### info
 
 模擬接收到臉辨結果時, 轉傳給前端的動作
 
-#### 範例
+##### 範例
 
-```
+```javascript
 SrAPI.trigger(channelID).info({
     MemberID: MemberID
 })
@@ -67,7 +67,7 @@ SrAPI.trigger(channelID).info({
 
 - `MemberID: String` 非必填
 
-#### 回應
+##### 回應
 
 若發生錯誤, 會收到系統內部的錯誤訊息
 
@@ -80,20 +80,20 @@ SrAPI.trigger(channelID).info({
 
 ---
 
-## udp
+### udp
 
 發送預先設定的資料
 
-#### 範例
+##### 範例
 
-```
+```javascript
 SrAPI.trigger(channelID).udp()
 ```
 
 - `channelID: Number`
 
 
-#### 回應
+##### 回應
 
 若發生錯誤, 會收到 `[trigger][udp][e] ` 後面接錯誤訊息
 
