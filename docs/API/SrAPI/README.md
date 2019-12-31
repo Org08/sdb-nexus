@@ -96,7 +96,11 @@
 
 ## member
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md)
+
+- [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#memberdata)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#functions)
   - [add](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#add)
   - [edit](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#edit)
   - [list](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#list)
