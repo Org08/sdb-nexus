@@ -61,6 +61,8 @@
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FA.md)
 
+- [FAData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#fadata)
+
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FA.md#functions)
   - [getStats](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FA.md#getStats)
 
