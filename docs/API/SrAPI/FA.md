@@ -12,7 +12,7 @@ FA 的完整資料格式是 [FAData](https://github.com/Org08/sdb-nexus/blob/mas
 
 取得 FA 統計資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.fa(channelID).getStats({
@@ -31,7 +31,7 @@ SrAPI.fa(channelID).getStats({
 - `pseudodata: Object` 設定為 true 的子項目, 會回傳模擬資料. 可以設的有 headCount, watchTime, age, smile, glasses, mask. 另外有個 all, 如果設了就會全部用模擬資料. 預設不使用模擬資料.
 
 
-#### 回應
+##### 回應
 
 [FAData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FAData.md)
 
