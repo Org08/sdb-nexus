@@ -150,7 +150,7 @@
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md)
 
-- [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md#storeitemdata)
+- [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#storeitemdata)
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#functions)
   - [add](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#add)
