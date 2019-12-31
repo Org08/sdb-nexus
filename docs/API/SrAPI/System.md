@@ -1,12 +1,17 @@
+
 # System
 
+---
+
 ## Intro
+
+---
 
 ## Functions
 
 ---
 
-## connect
+### connect
 
 連線
 
@@ -22,7 +27,7 @@ SrAPI.connect(url)
 
 ---
 
-## login
+### login
 
 登入
 
@@ -44,7 +49,7 @@ SrAPI.login({
 
 ---
 
-## logput
+### logput
 
 登出
 
