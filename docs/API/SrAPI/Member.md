@@ -14,7 +14,7 @@ Member 的完整資料格式是 [MemberData](https://github.com/Org08/sdb-nexus/
 
 若想要直接建檔, 要使用 [enroll](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Member.md#enroll) 
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.member(channelID).add(MemberData)
@@ -25,7 +25,7 @@ SrAPI.member(channelID).add(MemberData)
 - `MemberData:` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
 
-#### 回應
+##### 回應
 
 `新增的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
@@ -37,7 +37,7 @@ SrAPI.member(channelID).add(MemberData)
 
 這只會修改本地資料庫
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.member(channelID).edit(MemberData)
@@ -48,7 +48,7 @@ SrAPI.member(channelID).edit(MemberData)
 - `MemberData:` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
 
-#### 回應
+##### 回應
 
 `修改後的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
@@ -58,7 +58,7 @@ SrAPI.member(channelID).edit(MemberData)
 
 列出符合條件的 member
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.member(channelID).list({
@@ -84,7 +84,7 @@ SrAPI.member(channelID).list({
 
 > NOTE: group 欄位目前沒有跟現場協調過, 這是之前合作時的定義
 
-#### 回應
+##### 回應
 
 `Array of` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
@@ -94,7 +94,7 @@ SrAPI.member(channelID).list({
 
 新增 member, 且向辨識引擎建檔
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.member(channelID).enroll(MemberData)
@@ -106,7 +106,7 @@ SrAPI.member(channelID).enroll(MemberData)
 
 > MemberData.MemberID 和 MemberData.image 必填
 
-#### 回應
+##### 回應
 
 `新增的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
@@ -116,7 +116,7 @@ SrAPI.member(channelID).enroll(MemberData)
 
 刪除 member
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.member(channelID).del({
@@ -128,7 +128,7 @@ SrAPI.member(channelID).del({
 
 - `MemberID: String` 
 
-#### 回應
+##### 回應
 
 `刪除的` [MemberData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/MemberData.md)
 
