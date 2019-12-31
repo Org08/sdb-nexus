@@ -2,6 +2,10 @@
 
 FA 統計資料
 
+## FAData
+
+FA 的完整資料格式是 [FAData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FAData.md)
+
 ## Functions
 
 ### getStats
