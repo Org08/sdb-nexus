@@ -111,7 +111,9 @@
 
 ## monitor
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#functions)
   - [connect](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#connect)
 
 - [Events](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Monitor.md#events)
