@@ -59,7 +59,9 @@
 
 # fa
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FA.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FA.md)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FA.md#functions)
   - [getStats](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FA.md#getStats)
 
 ---
