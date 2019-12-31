@@ -1,8 +1,16 @@
 # Channel
 
----
+所有的應用都是基於 Channel
 
-## edit
+每個 Channel 可以獨立設定不同的功能
+
+## ChannelData
+
+所有的 Channel 的核心資料都是 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
+
+## Functions
+
+### edit
 
 修改 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md) 的任意資料
 
@@ -22,7 +30,7 @@ SrAPI.channel(channelID).edit(channelData)
 
 ---
 
-## list
+### list
 
 列出所有頻道及其所有資料
 
@@ -38,7 +46,7 @@ SrAPI.channel().list()
 
 ---
 
-## getAll
+### getAll
 
 取得特定頻道的所有資料
 
@@ -55,7 +63,7 @@ SrAPI.channel(channelID).getAll()
 
 ---
 
-## getBaoFeng
+### getBaoFeng
 
 取得特定頻道的金融區整合資料
 
@@ -80,7 +88,7 @@ SrAPI.channel(channelID).getBaoFeng()
 
 ---
 
-## getFA
+### getFA
 
 取得特定頻道的 FA 資料
 
@@ -104,7 +112,7 @@ SrAPI.channel(channelID).getFA()
 
 ---
 
-## getFR
+### getFR
 
 取得特定頻道的對人臉辨識的 socket server 的連線資料
 
@@ -131,7 +139,7 @@ SrAPI.channel(channelID).getFR()
 
 ---
 
-## getFRSDBConn
+### getFRSDBConn
 
 取得特定頻道的對應 socket server 資料庫的資料
 
@@ -159,7 +167,7 @@ SrAPI.channel(channelID).getFRSDBConn()
 
 ---
 
-## getGaziru
+### getGaziru
 
 取得特定頻道的對應 gaziru 的連線資料
 
@@ -185,7 +193,7 @@ SrAPI.channel(channelID).getGaziru()
 
 ---
 
-## getInfo
+### getInfo
 
 取得特定頻道的基本資料
 
@@ -211,7 +219,7 @@ SrAPI.channel(channelID).getInfo()
 
 ---
 
-## getTCP
+### getTCP
 
 取得特定頻道觸發 TCP 指令的資料 (未實裝)
 
@@ -236,7 +244,7 @@ SrAPI.channel(channelID).getTCP()
 
 ---
 
-## getUDP
+### getUDP
 
 取得特定頻道觸發 UDP 指令的資料
 
@@ -261,7 +269,7 @@ SrAPI.channel(channelID).getUDP()
 
 ---
 
-## getWSFeed
+### getWSFeed
 
 取得特定頻道影像來源的連線資料
 
@@ -287,7 +295,7 @@ SrAPI.channel(channelID).getWSFeed()
 
 ---
 
-## setBaoFeng
+### setBaoFeng
 
 設定特定頻道的金融區整合資料
 
@@ -326,7 +334,7 @@ SrAPI.channel(channelID).setBaoFeng({
 
 ---
 
-## setFA
+### setFA
 
 設定特定頻道的 FA 資料
 
@@ -361,7 +369,7 @@ SrAPI.channel(channelID).setFA({
 
 ---
 
-## setFR
+### setFR
 
 設定特定頻道的對人臉辨識的 socket server 的連線資料
 
@@ -408,7 +416,7 @@ SrAPI.channel(channelID).setFA({
 
 ---
 
-## setFRSDBConn
+### setFRSDBConn
 
 設定特定頻道的對應 socket server 資料庫的資料
 
@@ -453,7 +461,7 @@ SrAPI.channel(channelID).setFRSDBConn({
 
 ---
 
-## setGaziru
+### setGaziru
 
 設定特定頻道的對應 gaziru 的連線資料
 
@@ -490,7 +498,7 @@ SrAPI.channel(channelID).setGaziru({
 
 ---
 
-## setInfo
+### setInfo
 
 設定特定頻道的基本資料
 
@@ -537,7 +545,7 @@ SrAPI.channel(channelID).setInfo({
 
 ---
 
-## setTCP
+### setTCP
 
 設定特定頻道觸發 TCP 指令的資料 (未實裝)
 
@@ -577,7 +585,7 @@ SrAPI.channel(channelID).setTCP({
 
 ---
 
-## setUDP
+### setUDP
 
 設定特定頻道觸發 UDP 指令的資料
 
@@ -616,7 +624,7 @@ SrAPI.channel(channelID).setUDP({
 
 ---
 
-## setWSFeed
+### setWSFeed
 
 設定特定頻道影像來源的連線資料
 
