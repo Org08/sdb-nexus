@@ -14,7 +14,7 @@
 
 可以連續設定多種不同過濾條件, 所有設定過的條件都會印出
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.conf().addProbe({
@@ -36,7 +36,7 @@ SrAPI.conf().addProbe({
 
 清除所有設定過要接收的系統資訊
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.conf().clearProbe()
@@ -50,13 +50,13 @@ SrAPI.conf().clearProbe()
 
 目前僅用於設定 POS 介面的預設咖啡按鈕
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.conf().getStore()
 ```
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -76,7 +76,7 @@ SrAPI.conf().getStore()
 
 可以修改的欄位為 level 和 enabled
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.conf().setLog({    // 設定值都不是必填
@@ -93,7 +93,7 @@ SrAPI.conf().setLog({    // 設定值都不是必填
 })
 ```
 
-#### 回應
+##### 回應
 
 ```javascript
 {
