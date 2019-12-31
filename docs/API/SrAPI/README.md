@@ -87,7 +87,9 @@
 
 ## h264Player
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/H264Player.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/H264Player.md)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/H264Player.md#functions)
   - [getUrl](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/H264Player.md#getUrl)
 
 ---
