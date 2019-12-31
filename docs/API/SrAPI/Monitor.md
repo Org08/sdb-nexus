@@ -1,16 +1,18 @@
 # Monitor
 
----
+接收指定頻道的各種即時資料
 
-## connect
+## Functions
+
+### connect
 
 連線指定頻道, 並根據設定接收資料
 
 只需要呼叫一次, 並且無法更改設定值
 
-#### 範例
+##### 範例
 
-```
+```javascript
 SrAPI.monitor(channelID).connect({
     listen: {
         frame: true, 
@@ -37,7 +39,7 @@ SrAPI.monitor(channelID).connect({
 
 ### frame
 
-```
+```javascript
 SrAPI.monitor(channelID).on("frame", (data) => {
 
 })
@@ -45,7 +47,7 @@ SrAPI.monitor(channelID).on("frame", (data) => {
 
 - `channelID: Number`
 
-```
+```javascript
 data = {
     base64Frame: base64Frame
 }
@@ -56,7 +58,7 @@ data = {
 
 ### face
 
-```
+```javascript
 SrAPI.monitor(channelID).on("face", (data) => {
 
 })
@@ -64,7 +66,7 @@ SrAPI.monitor(channelID).on("face", (data) => {
 
 - `channelID: Number`
 
-```
+```javascript
 face = {
     base64Face: base64Face,
     rect: { 
@@ -89,7 +91,7 @@ face = {
 
 ### member
 
-```
+```javascript
 SrAPI.monitor(channelID).on("member", (MemberData) => {
 
 })
@@ -99,7 +101,7 @@ SrAPI.monitor(channelID).on("member", (MemberData) => {
 
 ### gaziru
 
-```
+```javascript
 SrAPI.monitor(channelID).on("gaziru", (StoreItemData) => {
 
 })
@@ -109,7 +111,7 @@ SrAPI.monitor(channelID).on("gaziru", (StoreItemData) => {
 
 ### fa
 
-```
+```javascript
 SrAPI.monitor(channelID).on("fa", (FAData) => {
 
 })
