@@ -138,7 +138,9 @@
 
 ## store
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md#functions)
   - [checkout](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md#checkout)
   - [recharge](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Store.md#recharge)
 
