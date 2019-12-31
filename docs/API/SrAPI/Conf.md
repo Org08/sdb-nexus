@@ -1,16 +1,22 @@
 # Conf
 
----
+直接修改系統底層設定
 
-## addProbe
+並可撈出指定的即時系統運作資料
 
-設定要接收的系統資訊, 接收到的資訊會直接在 console 印出.
+## Functions
 
-可以連續設定多種不同過濾條件, 所有設定過的條件都會印出.
+### addProbe
+
+設定要接收的系統資訊
+
+接收到的資訊會直接在瀏覽器開發者頁面的 console 印出
+
+可以連續設定多種不同過濾條件, 所有設定過的條件都會印出
 
 #### 範例
 
-```
+```javascript
 SrAPI.conf().addProbe({
     flag: "sys",
     level: "info",
@@ -26,33 +32,33 @@ SrAPI.conf().addProbe({
 
 ---
 
-## clearProbe
+### clearProbe
 
-清除要接收的系統資訊.
+清除要接收的系統資訊
 
 #### 範例
 
-```
+```javascript
 SrAPI.conf().clearProbe()
 ```
 
 ---
 
-## getStore
+### getStore
 
-取得設定檔 `./conf.json` 中的 store 資料.
+取得設定檔 `./conf.json` 中的 store 資料
 
-目前僅用於設定 POS 介面的預設咖啡按鈕.
+目前僅用於設定 POS 介面的預設咖啡按鈕
 
 #### 範例
 
-```
+```javascript
 SrAPI.conf().getStore()
 ```
 
 #### 回應
 
-```
+```javascript
 {
     coffee: {
         code: "coffee_0",
@@ -64,15 +70,15 @@ SrAPI.conf().getStore()
 
 ---
 
-## setLog
+### setLog
 
-修改設定檔 `./conf.json` 中的 log 資料.
+修改設定檔 `./conf.json` 中的 log 資料
 
-可以修改的欄位為 level 和 enabled.
+可以修改的欄位為 level 和 enabled
 
 #### 範例
 
-```
+```javascript
 SrAPI.conf().setLog({    // 設定值都不是必填
     sys: {
         level: "debug"
@@ -89,7 +95,7 @@ SrAPI.conf().setLog({    // 設定值都不是必填
 
 #### 回應
 
-```
+```javascript
 {
     sys: {
         level: "info",
