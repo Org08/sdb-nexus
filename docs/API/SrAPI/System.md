@@ -1,11 +1,9 @@
 
 # System
 
----
+系統本身的基本功能
 
 ## Functions
-
----
 
 ### connect
 
