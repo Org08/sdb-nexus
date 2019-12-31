@@ -13,7 +13,7 @@
 
 #### 範例
 
-```
+```javascript
 SrAPI.connect(url)
 ```
 
@@ -29,7 +29,7 @@ SrAPI.connect(url)
 
 #### 範例
 
-```
+```javascript
 SrAPI.login({
     username: username,
     password: password
@@ -49,7 +49,7 @@ SrAPI.login({
 
 #### 範例
 
-```
+```javascript
 SrAPI.logout()
 ```
 
