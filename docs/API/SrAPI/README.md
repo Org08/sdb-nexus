@@ -163,7 +163,9 @@
 
 ## trigger
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#functions)
   - [baofeng](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#baofeng)
   - [frDBSync](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#frsdbsync)
   - [info](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Trigger.md#info)
