@@ -148,7 +148,11 @@
 
 ## storeItem
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md)
+
+- [StoreItemData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/PTS.md#storeitemdata)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#functions)
   - [add](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#add)
   - [edit](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#edit)
   - [list](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/StoreItem.md#list)
