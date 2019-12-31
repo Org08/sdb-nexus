@@ -1,16 +1,18 @@
 # Store
 
-> 這只是模擬流程, 請不要拿去做真的結帳. 例如 checkout 沒有驗證, 只要給數字都會照扣.
+這只是模擬流程, 請不要拿去做真的結帳 
 
----
+> 例如 checkout 沒有驗證, 只要給數字都會照扣
 
-## checkout
+## Functions
+
+### checkout
 
 結帳
 
-#### 範例
+##### 範例
 
-```
+```javascript
 SrAPI.store(channelID).checkout({
      MemberID: "AAAA",
      total: 100
@@ -24,9 +26,9 @@ SrAPI.store(channelID).checkout({
 - `total: Number` 本次結帳要扣帳戶多少錢
 
 
-#### 回應
+##### 回應
 
-```
+```javascript
 {
     MemberID: "AAAA",
     MemberName: "AAAA",
@@ -40,15 +42,15 @@ SrAPI.store(channelID).checkout({
 
 ---
 
-## recharge
+### recharge
 
 儲值
 
 目前固定呼叫一次會儲 100
 
-#### 範例
+##### 範例
 
-```
+```javascript
 SrAPI.store(channelID).recharge({
      MemberID: "AAAA"
 })
@@ -60,7 +62,7 @@ SrAPI.store(channelID).recharge({
 
 #### 回應
 
-```
+```javascript
 {
     MemberID: "AAAA",
     MemberName: "AAAA",
