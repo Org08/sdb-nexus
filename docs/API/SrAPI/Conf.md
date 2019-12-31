@@ -34,7 +34,7 @@ SrAPI.conf().addProbe({
 
 ### clearProbe
 
-清除要接收的系統資訊
+清除所有設定過要接收的系統資訊
 
 #### 範例
 
