@@ -9,7 +9,7 @@
 
 ---
 
-## System
+## system
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/System.md)
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Channel
+## channel
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md)
 
@@ -51,7 +51,7 @@
 
 ---
 
-## Conf
+## conf
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md)
 
