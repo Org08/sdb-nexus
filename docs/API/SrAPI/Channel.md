@@ -6,7 +6,7 @@
 
 ## ChannelData
 
-所有的 Channel 的核心資料都是 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
+所有的 Channel 的完整資料都是 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
 ## Functions
 
