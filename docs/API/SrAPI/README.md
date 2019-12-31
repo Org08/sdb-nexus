@@ -78,7 +78,7 @@
 
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md)
 
-- [FAData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md#frrecorddata)
+- [FRRecordData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md#frrecorddata)
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md#functions)
   - [list](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/FRRecord.md#list)
