@@ -77,7 +77,7 @@ SrAPI.channel(channelID).getBaoFeng()
 
 #### 回應
 
-```
+```javascript
 {
     host: "",               // 目標 host
     port: 8888,             // 目標 port
@@ -102,7 +102,7 @@ SrAPI.channel(channelID).getFA()
 
 #### 回應
 
-```
+```javascript
 {
     host: "",               // 這是 sdb-nexus 本身的 IP, 因為是這裡當 server, 給 fa 丟資料進來.
     port: 8888,             // 承上, 這是開給 fa 連的 port.
@@ -126,7 +126,7 @@ SrAPI.channel(channelID).getFR()
 
 #### 回應
 
-```
+```javascript
 {
     host: "",               // socket server host
     port: 8888,             // socket server port
@@ -155,7 +155,7 @@ SrAPI.channel(channelID).getFRSDBConn()
 
 #### 回應
 
-```
+```javascript
 {
     user: "",               
     password: "",
@@ -183,7 +183,7 @@ SrAPI.channel(channelID).getGaziru()
 
 #### 回應
 
-```
+```javascript
 {
     host: "",               // host
     port: 8787,             // gaziru-parser 開的 port, 目前固定是 8787.
@@ -207,7 +207,7 @@ SrAPI.channel(channelID).getInfo()
 
 #### 回應
 
-```
+```javascript
 {
     channelName: "",            // 只是個名字.
     event: "",                  // 當需要讓不同 channel 給不同活動使用, 可用這個來區隔.
@@ -233,7 +233,7 @@ SrAPI.channel(channelID).getTCP()
 
 #### 回應
 
-```
+```javascript
 {
     host: "",
     port: 8888,
@@ -258,7 +258,7 @@ SrAPI.channel(channelID).getUDP()
 
 #### 回應
 
-```
+```javascript
 {
     host: "",               // 目標 host
     port: 8888,             // 目標 port
@@ -285,7 +285,7 @@ SrAPI.channel(channelID).getWSFeed()
 
 #### 回應
 
-```
+```javascript
 {
     host: "",
     port: 8888,
@@ -323,7 +323,7 @@ SrAPI.channel(channelID).setBaoFeng({
 
 #### 回應
 
-```
+```javascript
 {
     host: "",
     port: 8888,
@@ -359,7 +359,7 @@ SrAPI.channel(channelID).setFA({
 
 #### 回應
 
-```
+```javascript
 {
     host: "",
     port: 8888,
@@ -403,7 +403,7 @@ SrAPI.channel(channelID).setFA({
 
 #### 回應
 
-```
+```javascript
 {
     host: "",              
     port: 8888,            
@@ -449,7 +449,7 @@ SrAPI.channel(channelID).setFRSDBConn({
 
 #### 回應
 
-```
+```javascript
 {
     user: "aaaa",               
     password: "bbbb",
@@ -488,7 +488,7 @@ SrAPI.channel(channelID).setGaziru({
 
 #### 回應
 
-```
+```javascript
 {
     host: "", 
     port: 8787,
@@ -532,7 +532,7 @@ SrAPI.channel(channelID).setInfo({
 
 #### 回應
 
-```
+```javascript
 {
     channelName: "", 
     event: "", 
@@ -573,7 +573,7 @@ SrAPI.channel(channelID).setTCP({
 
 #### 回應
 
-```
+```javascript
 {
     host: "",
     port: 8888,
@@ -613,7 +613,7 @@ SrAPI.channel(channelID).setUDP({
 
 #### 回應
 
-```
+```javascript
 {
     host: "",
     port: 8888,
@@ -651,7 +651,7 @@ SrAPI.channel(channelID).setWSFeed({
 
 #### 回應
 
-```
+```javascript
 {
     host: "",
     port: 8888,
