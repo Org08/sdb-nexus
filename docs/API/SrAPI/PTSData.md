@@ -1,7 +1,7 @@
 
 # PTSData
 
-```
+```javascript
 {
     MemberID: MemberID,
     MemberName: MemberName,
