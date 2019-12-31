@@ -1,36 +1,6 @@
 
 # Intro
 
-> TODO
-
-有些應該算是附錄, 或是其它種手冊, 晚點編排
-
-- 系統架構
-
-- 子系統
-  - sdb-feed
-  - sdb-fd
-  - sdb-web
-
-- 內建頁面
-  - api
-  - console
-  - monitor
-  - store
-    - enroll
-    - checkout
-    - member
-
-- db schema
-  - Channel
-  - FARecord
-  - FRRecord
-  - Member
-  - PTSRecord
-  - StoreItem
-  - SysLog
-  - User
-
 ---
 
 # System
