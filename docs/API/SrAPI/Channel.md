@@ -16,7 +16,7 @@
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).edit(channelData)
 ```
 
@@ -36,7 +36,7 @@ SrAPI.channel(channelID).edit(channelData)
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel().list()
 ```
 
@@ -52,7 +52,7 @@ SrAPI.channel().list()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getAll()
 ```
 - `channelID: Number`
@@ -69,7 +69,7 @@ SrAPI.channel(channelID).getAll()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getBaoFeng()
 ```
 
@@ -94,7 +94,7 @@ SrAPI.channel(channelID).getBaoFeng()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getFA()
 ```
 
@@ -118,7 +118,7 @@ SrAPI.channel(channelID).getFA()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getFR()
 ```
 
@@ -147,7 +147,7 @@ SrAPI.channel(channelID).getFR()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getFRSDBConn()
 ```
 
@@ -175,7 +175,7 @@ SrAPI.channel(channelID).getFRSDBConn()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getGaziru()
 ```
 
@@ -199,7 +199,7 @@ SrAPI.channel(channelID).getGaziru()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getInfo()
 ```
 
@@ -225,7 +225,7 @@ SrAPI.channel(channelID).getInfo()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getTCP()
 ```
 
@@ -250,7 +250,7 @@ SrAPI.channel(channelID).getTCP()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getUDP()
 ```
 
@@ -277,7 +277,7 @@ SrAPI.channel(channelID).getUDP()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).getWSFeed()
 ```
 
@@ -301,7 +301,7 @@ SrAPI.channel(channelID).getWSFeed()
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setBaoFeng({ 
     host: "",       // 這些參數至少傳一個即可, 不強制都傳
     port: 8888,
@@ -340,7 +340,7 @@ SrAPI.channel(channelID).setBaoFeng({
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setFA({ 
     host: "",       // 這些參數至少傳一個即可, 不強制都傳
     port: 8888,
@@ -375,7 +375,7 @@ SrAPI.channel(channelID).setFA({
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setFA({ 
     host: "",               // 這些參數至少傳一個即可, 不強制都傳
     port: 8888,             
@@ -424,7 +424,7 @@ SrAPI.channel(channelID).setFA({
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setFRSDBConn({ 
     user: "",          // 這些參數至少傳一個即可, 不強制都傳     
     password: "",
@@ -469,7 +469,7 @@ SrAPI.channel(channelID).setFRSDBConn({
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setGaziru({ 
     host: "",          // 這些參數至少傳一個即可, 不強制都傳     
     port: "",
@@ -504,7 +504,7 @@ SrAPI.channel(channelID).setGaziru({
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setInfo({
     channelName: "",        // 這些參數至少傳一個即可, 不強制都傳     
     event: "", 
@@ -551,7 +551,7 @@ SrAPI.channel(channelID).setInfo({
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setTCP({
     host: "",           // 這些參數至少傳一個即可, 不強制都傳  
     port: 8888,
@@ -591,7 +591,7 @@ SrAPI.channel(channelID).setTCP({
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setUDP({
     host: "",           // 這些參數至少傳一個即可, 不強制都傳  
     port: 8888,
@@ -632,7 +632,7 @@ SrAPI.channel(channelID).setUDP({
 
 #### 範例
 
-```
+```javascript
 SrAPI.channel(channelID).setWSFeed({
     host: "",           // 這些參數至少傳一個即可, 不強制都傳  
     port: 8888,
