@@ -16,9 +16,11 @@
 
 # Channel
 
-- [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
+- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md)
 
-- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md)
+- [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#channeldata)
+
+- [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#fuctions)
   - [edit](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#edit)
   - [list](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#list)
   - [getAll](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#getAll)
