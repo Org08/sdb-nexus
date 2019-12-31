@@ -14,7 +14,7 @@
 
 修改 [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md) 的任意資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).edit(channelData)
@@ -24,7 +24,7 @@ SrAPI.channel(channelID).edit(channelData)
 
 - `channelData:` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
-#### 回應
+##### 回應
 
 `修改後的` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
@@ -34,13 +34,13 @@ SrAPI.channel(channelID).edit(channelData)
 
 列出所有頻道及其所有資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel().list()
 ```
 
-#### 回應
+##### 回應
 
 `Array of` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
@@ -50,14 +50,14 @@ SrAPI.channel().list()
 
 取得特定頻道的所有資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getAll()
 ```
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 `此頻道的` [ChannelData](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/ChannelData.md)
 
@@ -67,7 +67,7 @@ SrAPI.channel(channelID).getAll()
 
 取得特定頻道的金融區整合資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getBaoFeng()
@@ -75,7 +75,7 @@ SrAPI.channel(channelID).getBaoFeng()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -92,7 +92,7 @@ SrAPI.channel(channelID).getBaoFeng()
 
 取得特定頻道的 FA 資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getFA()
@@ -100,7 +100,7 @@ SrAPI.channel(channelID).getFA()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -116,7 +116,7 @@ SrAPI.channel(channelID).getFA()
 
 取得特定頻道的對人臉辨識的 socket server 的連線資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getFR()
@@ -124,7 +124,7 @@ SrAPI.channel(channelID).getFR()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -145,7 +145,7 @@ SrAPI.channel(channelID).getFR()
 
 這會用於同步資料等情況
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getFRSDBConn()
@@ -153,7 +153,7 @@ SrAPI.channel(channelID).getFRSDBConn()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -173,7 +173,7 @@ SrAPI.channel(channelID).getFRSDBConn()
 
 在 gaziru 所在的機器, 需要有 gaziru-parser 負責當中介
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getGaziru()
@@ -181,7 +181,7 @@ SrAPI.channel(channelID).getGaziru()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -197,7 +197,7 @@ SrAPI.channel(channelID).getGaziru()
 
 取得特定頻道的基本資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getInfo()
@@ -205,7 +205,7 @@ SrAPI.channel(channelID).getInfo()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -223,7 +223,7 @@ SrAPI.channel(channelID).getInfo()
 
 取得特定頻道觸發 TCP 指令的資料 (未實裝)
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getTCP()
@@ -231,7 +231,7 @@ SrAPI.channel(channelID).getTCP()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -248,7 +248,7 @@ SrAPI.channel(channelID).getTCP()
 
 取得特定頻道觸發 UDP 指令的資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getUDP()
@@ -256,7 +256,7 @@ SrAPI.channel(channelID).getUDP()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -275,7 +275,7 @@ SrAPI.channel(channelID).getUDP()
 
 > TODO: 連到 sdb-feed 章節
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).getWSFeed()
@@ -283,7 +283,7 @@ SrAPI.channel(channelID).getWSFeed()
 
 - `channelID: Number`
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -299,7 +299,7 @@ SrAPI.channel(channelID).getWSFeed()
 
 設定特定頻道的金融區整合資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setBaoFeng({ 
@@ -321,7 +321,7 @@ SrAPI.channel(channelID).setBaoFeng({
 - `enabled: Boolean`
 
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -338,7 +338,7 @@ SrAPI.channel(channelID).setBaoFeng({
 
 設定特定頻道的 FA 資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setFA({ 
@@ -357,7 +357,7 @@ SrAPI.channel(channelID).setFA({
 - `enabled: Boolean`
 
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -373,7 +373,7 @@ SrAPI.channel(channelID).setFA({
 
 設定特定頻道的對人臉辨識的 socket server 的連線資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setFA({ 
@@ -401,7 +401,7 @@ SrAPI.channel(channelID).setFA({
 - `enabled: Boolean`
 
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -422,7 +422,7 @@ SrAPI.channel(channelID).setFA({
 
 這會用於同步資料等情況
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setFRSDBConn({ 
@@ -447,7 +447,7 @@ SrAPI.channel(channelID).setFRSDBConn({
 - `enabled: Boolean`
 
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -467,7 +467,7 @@ SrAPI.channel(channelID).setFRSDBConn({
 
 在 gaziru 所在的機器, 需要有 gaziru-parser 負責當中介
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setGaziru({ 
@@ -486,7 +486,7 @@ SrAPI.channel(channelID).setGaziru({
 - `enabled: Boolean`
 
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -502,7 +502,7 @@ SrAPI.channel(channelID).setGaziru({
 
 設定特定頻道的基本資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setInfo({
@@ -530,7 +530,7 @@ SrAPI.channel(channelID).setInfo({
 - `enabled: Boolean`
 
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -549,7 +549,7 @@ SrAPI.channel(channelID).setInfo({
 
 設定特定頻道觸發 TCP 指令的資料 (未實裝)
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setTCP({
@@ -589,7 +589,7 @@ SrAPI.channel(channelID).setTCP({
 
 設定特定頻道觸發 UDP 指令的資料
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setUDP({
@@ -611,7 +611,7 @@ SrAPI.channel(channelID).setUDP({
 - `enabled: Boolean`
 
 
-#### 回應
+##### 回應
 
 ```javascript
 {
@@ -630,7 +630,7 @@ SrAPI.channel(channelID).setUDP({
 
 > TODO: 連到 sdb-feed 章節
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.channel(channelID).setWSFeed({
@@ -649,7 +649,7 @@ SrAPI.channel(channelID).setWSFeed({
 - `enabled: Boolean`
 
 
-#### 回應
+##### 回應
 
 ```javascript
 {
