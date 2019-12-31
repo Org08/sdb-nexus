@@ -5,7 +5,7 @@
 
 為了整合多種版本的臉辨引擎, 有些欄位只會在特定版本用到
 
-```
+```javascript
 MemberData = {
     event: ",             // 當需要讓不同 channel 給不同活動使用, 可用這個來區隔. 這會自動根據操作時的 channel 設定, 不需要額外設.
     MemberID: "",         //
