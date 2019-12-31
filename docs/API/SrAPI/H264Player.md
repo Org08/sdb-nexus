@@ -12,7 +12,7 @@
 
 除了整合在前端播放器裡, 其他地方通常用不到
 
-#### 範例
+##### 範例
 
 ```javascript
 SrAPI.h264Player(channelID).getUrl()
