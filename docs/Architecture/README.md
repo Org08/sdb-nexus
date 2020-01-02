@@ -3,26 +3,69 @@
 
 ## sdb-nexus
 
+系統核心, 連結所有服務節點
+
+- 由 channel 來區隔每組設定
+
+- 每個 channel 可以設定是否啟用 `影像串流` `人臉偵測` `人臉辨識`  `性別年齡等分析` `商品辨識`
+
+- 每個 channel 在有 `人臉辨識` 的情況下, 可設定是否要啟用 `觸發TCP訊息` `觸發UDP訊息` `觸發HTTP-POST`
+
+- 每個 channel 可以透過前端元件, 訂閱接收 `單張影像` `偵測到的人臉資料` `辨識到人臉的會員資料` `性別年齡等分析的即時資料` `商品辨識資料`
+
+backend
+
+- mongodb
+
+- frs db
+
+- frs socket server
+
+- fa
+
+- gaziru
+
+- sdb-feed
+
+- sdb-fd
+
+- sdb-web
+
+- baofeng
+
+frontend
+
+- api
+
+- monitor
+
+- h264player
+
+- h264insec
+
+- store
+
+- console
 
 
-設定檔
+#### 設定檔
 
 ```javascript
 {
-    "loglv": "info",
-    "mongodb": "mongodb://localhost:27017/sdb-nexus",
-    "server": {
+    "loglv": "info",                                    // 待棄用, 由 log 取代
+    "mongodb": "mongodb://localhost:27017/sdb-nexus",   // mongodb 連線
+    "server": {                                         // 本系統的 port
         "http_port": 8080,
         "https_port": 8443
     },
-    "store": {
+    "store": {                                          // 內建 store.checkout 介面的咖啡按鈕資料
         "coffee": {
             "code": "coffee_0",
             "name": "咖啡",
             "price": 50
         }
     },
-    "log": {
+    "log": {                                            // 每種 log 的設定值
         "sys": {
             "level": "info",
             "enabled": true
@@ -113,7 +156,7 @@
             "channelCnt": 20
         }
     },
-    "logOpts": {
+    "logOpts": {                                    // 寫入 db 的 log 的保存及刪除設定
         "keepDays": 7,
         "delAtHour": 0,
         "delAtMinute": 0
@@ -121,40 +164,9 @@
 }
 ```
 
+#### 
 
-backend
 
-- mongodb
-
-- frs db
-
-- frs socket server
-
-- fa
-
-- gaziru
-
-- sdb-feed
-
-- sdb-fd
-
-- sdb-web
-
-- baofeng
-
-frontend
-
-- api
-
-- monitor
-
-- h264player
-
-- h264insec
-
-- store
-
-- console
 
 
 ---
