@@ -101,6 +101,11 @@
 
 ## sdb-web
 
+方便配置前端應用的單純 web server
+
+在 static 資料夾中放置網頁檔案即可
+
+http 及 https 都是跑在預設 port
 
 ---
 
