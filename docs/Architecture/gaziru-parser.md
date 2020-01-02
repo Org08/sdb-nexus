@@ -3,7 +3,7 @@
 
 此程式目前必須被直接置於 `gaziru` 資料夾中
 
-會自動執行 `gaziru` 資料夾中的 `run_1920x1080_run_local.bat`
+啟動後會自動執行 `gaziru` 資料夾中的 `run_1920x1080_run_local.bat`
 
 並 parse 輸出的結果, 把 HIT 送給主系統 sdb-nexus
 
