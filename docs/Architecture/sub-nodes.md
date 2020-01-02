@@ -11,15 +11,15 @@
 
 影像服務
 
-接收 ipcam 或 webcam 的影像
+- 接收 ipcam 或 webcam 的影像
 
-解出或轉發單張影像給 sdb-fd 偵測人臉
+- 解出或轉發單張影像給 sdb-fd 偵測人臉
 
-提供給前端 h264 播放器即時串流
+- 提供給前端 h264 播放器即時串流
 
-提供給 sdb-nexus 持續更新的單張 frame
+- 提供給 sdb-nexus 持續更新的單張 frame
 
-轉發來自 sdb-fd 偵測出的人臉資料給 sdb-nexus
+- 轉發來自 sdb-fd 偵測出的人臉資料給 sdb-nexus
 
 #### 設定
 
@@ -73,9 +73,9 @@
 
 人臉辨識服務
 
-符合條件的環境下, 可用 GPU 加速
+- 符合條件的環境下, 可用 GPU 加速
 
-接收來自 sdb-feed 解出的單張影像, 偵測人臉並回傳
+- 接收來自 sdb-feed 解出的單張影像, 偵測人臉並回傳
 
 #### 設定
 
@@ -103,19 +103,23 @@
 
 方便配置前端應用的單純 web server
 
-在 static 資料夾中放置網頁檔案即可
+- 在 static 資料夾中放置網頁檔案即可
 
-http 及 https 都是跑在預設 port
+- http 及 https 都是跑在預設 port
+
+- 通常會配置在跟 sdb-nexus 同機器上, 不過其實沒有限制
 
 ---
 
 ## gaziru-parser
 
-此程式目前必須被直接置於 `gaziru` 資料夾中
+與 gaziru 溝通用的程式
 
-啟動後會自動執行 `gaziru` 資料夾中的 `run_1920x1080_run_local.bat`
+- 此程式目前必須被直接置於 `gaziru` 資料夾中
 
-並 parse 輸出的結果, 把 HIT 送給主系統 sdb-nexus
+- 啟動後會自動執行 `gaziru` 資料夾中的 `run_1920x1080_run_local.bat`
+
+- parse 輸出的結果, 把 HIT 送給主系統 sdb-nexus
 
 > TODO 連結到 sdb-nexus
 
