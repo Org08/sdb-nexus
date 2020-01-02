@@ -9,6 +9,7 @@
   - sdb-feed
   - sdb-fd
   - sdb-web
+  - gaziru-parser
 
 - API
   - [SrAPI](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/README.md)
