@@ -117,7 +117,7 @@ FA 的情況跟 FR 相反, FA 需要本系統開 SocketServer, 所以此處設�
 
 ### GaziruSchema
 
-同 FA, 是本地建立 SocketServer 接收來自 [gaziru-parser](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/gaziru-parser.md) 的資料
+同 FA, 是本地建立 SocketServer 接收來自 [gaziru-parser](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/architecture.md#gaziru-parser) 的資料
 
 ```javascript
 {
