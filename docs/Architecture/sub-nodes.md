@@ -1,11 +1,21 @@
 
-# sdb-fd
+# Sub-Nodes
+
+
+---
+
+## sdb-feed
+
+
+---
+
+## sdb-fd
 
 人臉辨識服務
 
 符合條件的環境下, 可用 GPU 加速
 
-## 設定
+#### 設定
 
 ```javascript
 {
@@ -27,8 +37,12 @@
 
 ---
 
+## sdb-web
 
-# gaziru-parser
+
+---
+
+## gaziru-parser
 
 此程式目前必須被直接置於 `gaziru` 資料夾中
 
@@ -38,7 +52,7 @@
 
 > TODO 連結到 sdb-nexus
 
-## 連線
+#### 連線
 
 程式啟動後, 會同時起一個 `port:8787` 的 socket server
 
@@ -48,7 +62,7 @@ URL 範例
 ws://[IP]:8787/gaziru
 ```
 
-## 事件
+#### 事件
 
 當 parse 到 HIT 時
 
@@ -62,3 +76,5 @@ ws://[IP]:8787/gaziru
     barcode: barcode
 }
 ```
+
+---
