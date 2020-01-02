@@ -67,7 +67,7 @@
             },
             "nodeipc": {                // 透過 node-ipc 與 sdb-fd 溝通. 當有太高每秒張數傳送問題時, 建議用這種
                 "ipc_id": "feed-1",     // 本服務的 ipc id
-                "ipc_server_id": "fd-1" // 目標 sdb-fd 的 
+                "ipc_server_id": "fd-1" // 目標 sdb-fd 的 ipc id
             }
         }
     }
@@ -89,19 +89,19 @@
 
 ```javascript
 {
-    "loglv": "debug",
+    "loglv": "debug",                       // 設定會印出的 log 等級
     "log_filter": {
-        "fps": false
+        "fps": false                        // 設定是否要持續印出 fps 資訊
     },
     "path": {
-        "licence": "./licence",
-        "opencv": "./dist/opencv",
-        "tensorflow": "./dist/tensorflow"
+        "licence": "./licence",             // licence key 路徑
+        "opencv": "./dist/opencv",          // opencv 路徑
+        "tensorflow": "./dist/tensorflow"   // tensorflow 路徑
     },
-    "port": 3000,
-    "ipc_id": "fd-1",
-    "hwacc": false,
-    "cv_min_detection": 4
+    "port": 3000,                           // 開給 sdb-feed 的 port (其實只要符合規範, 其他來源也可以直接連來用)
+    "ipc_id": "fd-1",                       // 本服務的 ipc id
+    "hwacc": false,                         // 是否啟用硬體加速
+    "cv_min_detection": 4                   // 人臉偵測門檻值, 數字越大越嚴格
 }
 ```
 
