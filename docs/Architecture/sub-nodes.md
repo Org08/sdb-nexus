@@ -1,11 +1,71 @@
 
 # Sub-Nodes
 
+負責各種功能的子節點
+
+可以跟主系統在同樣的機器執行, 也可以視需要分散配置
 
 ---
 
 ## sdb-feed
 
+影像服務
+
+接收 ipcam 或 webcam 的影像
+
+解出或轉發單張影像給 sdb-fd 偵測人臉
+
+提供給前端 h264 播放器即時串流
+
+提供給 sdb-nexus 持續更新的單張 frame
+
+轉發來自 sdb-fd 偵測出的人臉資料給 sdb-nexus
+
+#### 設定
+
+```javascript
+{
+    "loglv": "debug",
+    "log_filter": {
+        "fps": false
+    },
+    "path": {
+        "licence": "./licence"
+    },
+    "server": {
+        "ip": "192.168.11.14",
+        "https_port": 4020,
+        "nexus_port": 9020
+    },
+    "channelID": 1,
+    "hwacc": false,
+    "feed": {
+        "ipcam": {
+            "url": "desktop",
+            "resolution": "1366x728",
+            "quality":  3,
+            "framerate": 5
+        },
+        "webcam": false,
+        "h264player": false
+    },
+    "fd": {
+        "mode": "Multi",
+        "multiTimeoutMS": 500,
+        "connection": {
+            "socketio": {
+                "host": "localhost",
+                "port": 3000
+            },
+            "nodeipc": {
+                "ipc_id": "feed-1",
+                "ipc_server_id": "fd-1"
+            }
+        }
+    }
+
+}
+```
 
 ---
 
@@ -14,6 +74,8 @@
 人臉辨識服務
 
 符合條件的環境下, 可用 GPU 加速
+
+接收來自 sdb-feed 解出的單張影像, 偵測人臉並回傳
 
 #### 設定
 
