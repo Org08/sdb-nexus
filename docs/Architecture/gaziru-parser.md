@@ -23,7 +23,7 @@ ws://[IP]:8787/gaziru
 
 當 parse 到 HIT 時
 
-會在 websokcet 連線發送 `HIT` 事件
+會對每個 websokcet 連線發送 `HIT` 事件
 
 資料範例
 
