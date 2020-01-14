@@ -70,7 +70,7 @@ SrAPI.member(channelID).list({
 })
 ```
 
-- `channelID: Number`
+- `channelID: Number` 可以不給值, 不給時會列出不分活動的所有 member.
 
 - `skip: Number` 略過幾筆. 預設 0.
 
