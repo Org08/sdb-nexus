@@ -127,9 +127,7 @@
 
 - 啟動後會自動執行 `gaziru` 資料夾中的 `run_1920x1080_run_local.bat`
 
-- parse 輸出的結果, 把 HIT 送給主系統 sdb-nexus
-
-> TODO 連結到 sdb-nexus
+- parse 輸出的結果, 把 HIT 送給主系統 [sdb-nexus](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture#sdb-nexus)
 
 #### 連線
 
