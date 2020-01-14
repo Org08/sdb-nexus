@@ -23,11 +23,11 @@
 - [DB Schema](https://github.com/Org08/sdb-nexus/blob/master/docs/DBSchema/README.md)
 
 - [內建頁面](https://github.com/Org08/sdb-nexus/tree/master/docs/Pages)
-  - api
-  - console
-  - monitor
+  - [api](https://github.com/Org08/sdb-nexus/blob/master/docs/Pages/pages.md#api)
+  - [console](https://github.com/Org08/sdb-nexus/blob/master/docs/Pages/pages.md#console)
+  - [monitor](https://github.com/Org08/sdb-nexus/blob/master/docs/Pages/pages.md#monitor)
   - store
-    - enroll
-    - checkout
-    - member
+    - [enroll](https://github.com/Org08/sdb-nexus/blob/master/docs/Pages/pages.md#storeenroll)
+    - [checkout](https://github.com/Org08/sdb-nexus/blob/master/docs/Pages/pages.md#storecheckout)
+    - [member](https://github.com/Org08/sdb-nexus/blob/master/docs/Pages/pages.md#storemember)
 
