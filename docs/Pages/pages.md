@@ -56,6 +56,8 @@ https://[server_id]:8443/monitor?ch=10
 
 商店應用的建檔
 
+內建的 `/console` 建檔也會開啟這個頁面
+
 #### url
 
 ```javascript
@@ -73,6 +75,8 @@ https://[server_id]:8443/store/enroll?ch=10&deviceIdx=0&mirrorFaceCam=0
 ## store/checkout
 
 商店應用的結帳
+
+可以用 webcam 或掃描器或接收 gaziru 的回應, 來做到掃描商品功能.
 
 #### url
 
@@ -97,6 +101,8 @@ https://[server_id]:8443/store/checkout?ch=10&camType=webcam&scanCamIdx=0&faceCa
 ## store/member
 
 商店應用的查詢
+
+可以查詢餘額和模擬儲值
 
 #### url
 
