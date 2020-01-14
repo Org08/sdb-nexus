@@ -70,6 +70,45 @@ SrAPI.conf().getStore()
 
 ---
 
+### setStore
+
+設定設定檔 `./conf.json` 中的 store 資料
+
+目前僅用於設定 POS 介面的預設咖啡按鈕
+
+##### 範例
+
+```javascript
+SrAPI.conf().setStore({
+    coffee: {
+        code: "coffee_0",
+        name: "咖啡",
+        price: 50
+    }
+})
+```
+
+- `code: String` 通常不會改, 除非連前端介面接收的參數一起改
+
+- `name: String`
+
+- `price: Number`
+
+
+##### 回應
+
+```javascript
+{
+    coffee: {
+        code: "coffee_0",
+        name: "咖啡",
+        price: 50
+    }
+}
+```
+
+---
+
 ### setLog
 
 修改設定檔 `./conf.json` 中的 log 資料
