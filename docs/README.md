@@ -11,7 +11,7 @@
   - sdb-web
   - gaziru-parser
 
-- API
+- [API](https://github.com/Org08/sdb-nexus/tree/master/docs/API)
   - [SrAPI](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/README.md)
   - WebService
   - WebSocket
