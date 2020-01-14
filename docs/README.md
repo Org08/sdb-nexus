@@ -4,10 +4,12 @@
 - 簡介
 
 - [系統架構](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture)
-  - 系統核心
+  - 核心
     - [sdb-nexus](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture#sdb-nexus)
     - mongodb
-  - 系統節點
+  - 功能節點
+    - frs
+    - frs db
     - [sdb-feed](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-feed)
     - [sdb-fd](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-fd)
     - [sdb-web](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-web)
