@@ -115,7 +115,7 @@
 
 - http 及 https 都是跑在預設 port
 
-- 通常會配置在跟 sdb-nexus 同機器上, 不過其實沒有限制
+- 通常會配置在跟 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sdb-nexus.md) 同機器上, 不過其實沒有限制
 
 ---
 
