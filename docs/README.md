@@ -13,10 +13,10 @@
     - [sdb-web](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-web)
     - [gaziru-parser](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#gaziru-parser)
   - [整合節點](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/intergated-nodes.md)
-    - frs socket server
-    - frs db
-    - fa
-    - baofeng
+    - [frs socket server](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/intergated-nodes.md#frs-socket-server)
+    - [frs db](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/intergated-nodes.md#frs-db)
+    - [fa](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/intergated-nodes.md#fa)
+    - [baofeng](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/intergated-nodes.md#baofeng)
 
 - [API](https://github.com/Org08/sdb-nexus/tree/master/docs/API)
   - [SrAPI](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/README.md)
