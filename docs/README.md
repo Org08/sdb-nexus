@@ -15,7 +15,7 @@
   - 整合節點
     - frs socket server
     - frs db
-    
+    - fa
     - baofeng
 
 - [API](https://github.com/Org08/sdb-nexus/tree/master/docs/API)
