@@ -47,7 +47,7 @@ https://[server_id]:8443/console
 https://[server_id]:8443/monitor?ch=10
 ```
 
-- `ch: number` channelID
+- `ch: Number` channelID
 
 ---
 
@@ -59,8 +59,58 @@ https://[server_id]:8443/monitor?ch=10
 #### url
 
 ```javascript
-https://[server_id]:8443/store/enroll?ch=10
+https://[server_id]:8443/store/enroll?ch=10&deviceIdx=0&mirrorFaceCam=0
 ```
+
+- `ch: Number` channelID
+
+- `deviceIdx: Number` 非必填. 預設 0. 當設備上有多個 webcam 時, 設定要用哪一個 webcam.
+
+- `mirrorFaceCam: Number` 非必填. 預設 0. 決定是否要左右翻轉影像.
+
+---
+
+## store/checkout
+
+商店應用的結帳
+
+#### url
+
+```javascript
+https://[server_id]:8443/store/checkout?ch=10&camType=webcam&scanCamIdx=0&faceCamIdx=0&mirrorFaceCam=0&faceTimeout=10000
+```
+
+- `ch: Number` channelID
+
+- `camType: String` 非必填. 預設 webcam. 可用 webcam 或 ipcam. 決定影像來源.
+ 
+- `scanCamIdx: Number` 非必填. 預設 0. 當設備上有多個 webcam 時, 設定要用哪一個 webcam. 這是掃條碼用的 cam.
+
+- `faceCamIdx: Number` 非必填. 預設 0. 當設備上有多個 webcam 時, 設定要用哪一個 webcam. 這是掃臉用的 cam.
+
+- `mirrorFaceCam: Number` 非必填. 預設 0. 決定是否要左右翻轉影像.
+
+- `faceTimeout: Number` 非必填. 預設 10000. 決定過多久沒辨識結果, 就要回應為沒有建檔. 單位為 ms.
+
+---
+
+## store/member
+
+商店應用的查詢
+
+#### url
+
+```javascript
+https://[server_id]:8443/store/member?ch=10&camType=webcam&deviceIdx=0&mirrorFaceCam=0
+```
+
+- `ch: Number` channelID
+
+- `camType: String` 非必填. 預設 webcam. 可用 webcam 或 ipcam. 決定影像來源.
+
+- `deviceIdx: Number` 非必填. 預設 0. 當設備上有多個 webcam 時, 設定要用哪一個 webcam. 當 camType 為 webcam 時才有效.
+
+- `mirrorFaceCam: Number` 非必填. 預設 0. 決定是否要左右翻轉影像.
 
 ---
 
