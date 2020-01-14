@@ -23,7 +23,7 @@
 
 主要用於同步建檔資料
 
-可以在 channel 的 [setfrsdbconn](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#setfrsdbconn) 與 [getfrsdbconn](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#getfrsdbconn) 進行設定
+可以在 channel 的 [setFRSDBConn](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#setfrsdbconn) 與 [getFRSDBConn](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#getfrsdbconn) 進行設定
 
 目前同步功能限於 channel 1 使用
 
