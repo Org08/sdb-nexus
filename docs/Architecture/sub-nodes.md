@@ -17,9 +17,9 @@
 
 - 提供給前端 h264 播放器即時串流
 
-- 提供給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/nexsus.md) 持續更新的單張 frame
+- 提供給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sdb-nexus.md) 持續更新的單張 frame
 
-- 轉發來自 [sdb-fd](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-fd) 偵測出的人臉資料給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/nexsus.md)
+- 轉發來自 [sdb-fd](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-fd) 偵測出的人臉資料給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sdb-nexus.md)
 
 - 符合條件的環境下, 可用 GPU 加速
 
@@ -127,7 +127,7 @@
 
 - 啟動後會自動執行 `gaziru` 資料夾中的 `run_1920x1080_run_local.bat`
 
-- parse 輸出的結果, 把 HIT 送給主系統 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/nexsus.md)
+- parse 輸出的結果, 把 HIT 送給主系統 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sdb-nexus.md)
 
 #### 連線
 
