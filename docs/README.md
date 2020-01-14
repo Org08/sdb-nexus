@@ -20,7 +20,7 @@
 
 - [API](https://github.com/Org08/sdb-nexus/tree/master/docs/API)
   - [SrAPI](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/README.md)
-  - WebService
+  - [WebService](https://github.com/Org08/sdb-nexus/blob/master/docs/API/WebService.md)
 
 - [DB Schema](https://github.com/Org08/sdb-nexus/blob/master/docs/DBSchema/README.md)
 
