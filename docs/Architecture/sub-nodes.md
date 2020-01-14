@@ -17,9 +17,9 @@
 
 - 提供給前端 h264 播放器即時串流
 
-- 提供給 sdb-nexus 持續更新的單張 frame
+- 提供給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/nexsus.md) 持續更新的單張 frame
 
-- 轉發來自 sdb-fd 偵測出的人臉資料給 sdb-nexus
+- 轉發來自 sdb-fd 偵測出的人臉資料給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/nexsus.md)
 
 - 符合條件的環境下, 可用 GPU 加速
 
