@@ -62,6 +62,7 @@
   - [setStore](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setstore)
   - [getMember](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#getmember)
   - [setMember](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setmember)
+  - [getLog](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#getlog)
   - [setLog](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setlog)
 
 ---
