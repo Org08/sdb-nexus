@@ -59,6 +59,7 @@
   - [addProbe](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#addProbe)
   - [clearProbe](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#clearProbe)
   - [getStore](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#getStore)
+  - [setStore](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setStore)
   - [setLog](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setLog)
 
 ---
