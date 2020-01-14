@@ -47,5 +47,20 @@ https://[server_id]:8443/console
 https://[server_id]:8443/monitor?ch=10
 ```
 
+- `ch: number` channelID
+
+---
+
+
+## store/enroll
+
+商店應用的建檔
+
+#### url
+
+```javascript
+https://[server_id]:8443/store/enroll?ch=10
+```
+
 ---
 
