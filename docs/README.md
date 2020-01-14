@@ -3,7 +3,7 @@
 
 - 簡介
 
-- 系統架構
+- [系統架構](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture)
   
 - 子系統
   - sdb-feed
