@@ -56,11 +56,13 @@
 - [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md)
 
 - [Fuctions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#functions)
-  - [addProbe](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#addProbe)
-  - [clearProbe](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#clearProbe)
-  - [getStore](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#getStore)
-  - [setStore](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setStore)
-  - [setLog](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setLog)
+  - [addProbe](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#addprobe)
+  - [clearProbe](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#clearprobe)
+  - [getStore](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#getstore)
+  - [setStore](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setstore)
+  - [getMember](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#getmember)
+  - [setMember](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setmember)
+  - [setLog](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Conf.md#setlog)
 
 ---
 
