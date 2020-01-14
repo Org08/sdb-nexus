@@ -7,12 +7,12 @@
   - 核心
     - [sdb-nexus](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture#sdb-nexus)
     - mongodb
-  - 子系統
+  - 子節點
     - [sdb-feed](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-feed)
     - [sdb-fd](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-fd)
     - [sdb-web](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-web)
     - [gaziru-parser](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#gaziru-parser)
-  - 整合系統
+  - 整合節點
     - frs socket server
     - frs db
     - baofeng
