@@ -72,7 +72,7 @@ SrAPI.conf().getStore()
 
 ### setStore
 
-設定設定檔 `./conf.json` 中的 store 資料
+修改設定檔 `./conf.json` 中的 store 資料
 
 目前僅用於設定 POS 介面的預設咖啡按鈕
 
@@ -133,7 +133,7 @@ SrAPI.conf().getMember()
 
 ### setStore
 
-設定設定檔 `./conf.json` 中的 member 資料
+修改設定檔 `./conf.json` 中的 member 資料
 
 用於設定建檔時的預設資料
 
@@ -158,26 +158,43 @@ SrAPI.conf().setMember({
 
 ---
 
+### getLog
+
+取得設定檔 `./conf.json` 中的 logOpts 資料
+
+這會決定保存及刪除 log 的設定
+
+##### 範例
+
+```javascript
+SrAPI.conf().getLog()
+```
+
+##### 回應
+
+```javascript
+{
+    keepDays: 7,
+    delAtHour: 0,
+    delAtMinute: 0
+}
+```
+
+---
+
 ### setLog
 
-修改設定檔 `./conf.json` 中的 log 資料
+修改設定檔 `./conf.json` 中的 logOpts 資料
 
-可以修改的欄位為 level 和 enabled
+這會決定保存及刪除 log 的設定
 
 ##### 範例
 
 ```javascript
 SrAPI.conf().setLog({    // 設定值都不是必填
-    sys: {
-        level: "debug"
-    },
-    channel: {
-        enabled: false
-    },
-    member: {
-        level: "info",
-        enabled: true
-    }
+    keepDays: 7,
+    delAtHour: 0,
+    delAtMinute: 0
 })
 ```
 
@@ -185,95 +202,9 @@ SrAPI.conf().setLog({    // 設定值都不是必填
 
 ```javascript
 {
-    sys: {
-        level: "info",
-        enabled: true
-    },
-    channel: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    member: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    store: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    storeItem: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    fa: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    fr: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    feed: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    gaziru: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    tcp: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    udp: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    frsdb: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    baofeng: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    frRecord: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    pts: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    trigger: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    conf: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    },
-    h264player: {
-        level: "info",
-        enabled: true,
-        channelCnt: 20
-    }
+    keepDays: 7,
+    delAtHour: 0,
+    delAtMinute: 0
 }
 ```
 
