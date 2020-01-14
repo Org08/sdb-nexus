@@ -33,7 +33,7 @@
 
 性別年齡等分析服務
 
-不同於大部分的整合, 這個是 sdb-nexus 開 socket 給 fa 連線丟資料
+不同於大部分的整合, 這個是 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sdb-nexus.md) 開 socket 給 fa 連線丟資料
 
 可以在 channel 的 [setFA](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#setFA) 與 [getFA](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/Channel.md#getFA) 進行設定
 
