@@ -109,6 +109,55 @@ SrAPI.conf().setStore({
 
 ---
 
+### getMember
+
+取得設定檔 `./conf.json` 中的 member 資料
+
+用於設定建檔時的預設資料
+
+##### 範例
+
+```javascript
+SrAPI.conf().getMember()
+```
+
+##### 回應
+
+```javascript
+{
+    defaultBalance: 168
+}
+```
+
+---
+
+### setStore
+
+設定設定檔 `./conf.json` 中的 member 資料
+
+用於設定建檔時的預設資料
+
+##### 範例
+
+```javascript
+SrAPI.conf().setMember({
+    defaultBalance: 168
+})
+```
+
+- `defaultBalance: Number` 預設餘額
+
+
+##### 回應
+
+```javascript
+{
+    defaultBalance: 168
+}
+```
+
+---
+
 ### setLog
 
 修改設定檔 `./conf.json` 中的 log 資料
