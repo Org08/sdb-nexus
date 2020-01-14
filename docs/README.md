@@ -5,7 +5,7 @@
 
 - [系統架構](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture)
   - 核心
-    - [sdb-nexus](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture#sdb-nexus)
+    - [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sdb-nexus.md)
     - [mongodb](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/mongodb.md)
   - [子節點](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md)
     - [sdb-feed](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-feed)
