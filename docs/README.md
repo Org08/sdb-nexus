@@ -12,7 +12,7 @@
     - [sdb-fd](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-fd)
     - [sdb-web](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-web)
     - [gaziru-parser](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#gaziru-parser)
-  - 整合節點
+  - 整合系統
     - frs socket server
     - frs db
     - baofeng
