@@ -4,12 +4,12 @@
 - 簡介
 
 - [系統架構](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture)
-  
-- 子系統
-  - sdb-feed
-  - sdb-fd
-  - sdb-web
-  - gaziru-parser
+  - [核心: sdb-nexus](https://github.com/Org08/sdb-nexus/tree/master/docs/Architecture#sdb-nexus)
+  - 子系統
+    - [sdb-feed](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-feed)
+    - [sdb-fd](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-fd)
+    - [sdb-web](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-web)
+    - [gaziru-parser](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#gaziru-parser)
 
 - [API](https://github.com/Org08/sdb-nexus/tree/master/docs/API)
   - [SrAPI](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/README.md)
