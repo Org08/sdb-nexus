@@ -16,6 +16,9 @@
 - monitor
 
 - store
+  - enroll
+  - checkout
+  - member
 
  
  ---
