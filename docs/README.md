@@ -22,7 +22,7 @@
 
 - [DB Schema](https://github.com/Org08/sdb-nexus/blob/master/docs/DBSchema/README.md)
 
-- 內建頁面
+- [內建頁面](https://github.com/Org08/sdb-nexus/tree/master/docs/Pages)
   - api
   - console
   - monitor
