@@ -273,7 +273,7 @@ SrAPI.channel(channelID).getUDP()
 
 取得特定頻道影像來源的連線資料
 
-> TODO: 連到 sdb-feed 章節
+對應的服務為 [sdb-feed](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-feed)
 
 ##### 範例
 
@@ -350,7 +350,7 @@ SrAPI.channel(channelID).setFA({
 
 - `channelID: Number`
 
-- `host: String` 這是 sdb-nexus 本身的 IP, 因為是這裡當 server, 給 fa 丟資料進來.
+- `host: String` 這是 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sdb-nexus.md) 本身的 IP, 因為是這裡當 server, 給 fa 丟資料進來.
 
 - `port: Number` 承上, 這是開給 fa 連的 port.
 
@@ -465,7 +465,7 @@ SrAPI.channel(channelID).setFRSDBConn({
 
 設定特定頻道的對應 gaziru 的連線資料
 
-在 gaziru 所在的機器, 需要有 gaziru-parser 負責當中介
+在 gaziru 所在的機器, 需要有 [gaziru-parser](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#gaziru-parser) 負責當中介
 
 ##### 範例
 
@@ -628,7 +628,7 @@ SrAPI.channel(channelID).setUDP({
 
 設定特定頻道影像來源的連線資料
 
-> TODO: 連到 sdb-feed 章節
+對應的服務為 [sdb-feed](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-feed)
 
 ##### 範例
 
