@@ -19,7 +19,7 @@
 
 - 提供給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/nexsus.md) 持續更新的單張 frame
 
-- 轉發來自 sdb-fd 偵測出的人臉資料給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/nexsus.md)
+- 轉發來自 [sdb-fd](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-fd) 偵測出的人臉資料給 [sdb-nexus](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/nexsus.md)
 
 - 符合條件的環境下, 可用 GPU 加速
 
@@ -81,7 +81,7 @@
 
 人臉辨識服務
 
-- 接收來自 sdb-feed 解出的單張影像, 偵測人臉並回傳
+- 接收來自 [sdb-feed](https://github.com/Org08/sdb-nexus/blob/master/docs/Architecture/sub-nodes.md#sdb-feed) 解出的單張影像, 偵測人臉並回傳
 
 - 符合條件的環境下, 可用 GPU 加速
 
